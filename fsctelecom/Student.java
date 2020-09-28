@@ -48,6 +48,10 @@ public class Student {
 		numStudents++;
 	}
 	
+	public static void decreaseNumStudents(){
+		numStudents--;
+	}
+	
 	
 	@Override
 	public String toString(){
