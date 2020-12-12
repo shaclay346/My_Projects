@@ -1,0 +1,2020 @@
+ADD Command
+	ETSUKO ARGUILLO (ID 1110471), from the CS department, joined FSCbook.
+
+ADD Command
+	HULDA BROOK (ID 1110822), from the IT department, joined FSCbook.
+
+ADD Command
+	CHEYENNE RAMKISSOON (ID 1113932), from the IT department, joined FSCbook.
+
+ADD Command
+	PAMILA KORTH (ID 1112700), from the CS department, joined FSCbook.
+
+ADD Command
+	DOMINGA HOHLSTEIN (ID 1112285), from the IS department, joined FSCbook.
+
+ADD Command
+	REBA RINKE (ID 1114035), from the IT department, joined FSCbook.
+
+ADD Command
+	ALLENA TUDOR (ID 1114880), from the IS department, joined FSCbook.
+
+ADD Command
+	ELISSA BOLORIN (ID 1110751), from the IT department, joined FSCbook.
+
+ADD Command
+	KITTY SUNDAY (ID 1114651), from the IS department, joined FSCbook.
+
+ADD Command
+	OMER DURRAH (ID 1111567), from the IS department, joined FSCbook.
+
+ADD Command
+	MARCELO MUNNERLYN (ID 1113329), from the IT department, joined FSCbook.
+
+ADD Command
+	ANAMARIA DARRELL (ID 1111259), from the IT department, joined FSCbook.
+
+ADD Command
+	INGEBORG IHNEN (ID 1112414), from the IT department, joined FSCbook.
+
+ADD Command
+	BULAH LOFINK (ID 1112873), from the CS department, joined FSCbook.
+
+ADD Command
+	SYLVIE CONATY (ID 1111112), from the IT department, joined FSCbook.
+
+ADD Command
+	KARLEEN MCCARRELL (ID 1113078), from the IS department, joined FSCbook.
+
+ADD Command
+	CLARENCE MEHTANI (ID 1113148), from the IT department, joined FSCbook.
+
+ADD Command
+	LENORA KAUBLE (ID 1112598), from the IT department, joined FSCbook.
+
+ADD Command
+	ANASTASIA ROEHLING (ID 1114071), from the IS department, joined FSCbook.
+
+ADD Command
+	WINNIE BIGALK (ID 1110634), from the IT department, joined FSCbook.
+
+ADD Command
+	ALYSHA COGDELL (ID 1111075), from the CS department, joined FSCbook.
+
+ADD Command
+	CREOLA MICHELA (ID 1113193), from the CS department, joined FSCbook.
+
+ADD Command
+	WENDIE STEINKE (ID 1114588), from the CS department, joined FSCbook.
+
+ADD Command
+	SONIA NAUSS (ID 1113372), from the IT department, joined FSCbook.
+
+ADD Command
+	BRIGIDA BIGOS (ID 1110652), from the IS department, joined FSCbook.
+
+ADD Command
+	TAMESHA GETTLE (ID 1111914), from the IS department, joined FSCbook.
+
+ADD Command
+	TYISHA SCHUCHARD (ID 1114304), from the IS department, joined FSCbook.
+
+ADD Command
+	GENNA CHAPMAN (ID 1110998), from the CS department, joined FSCbook.
+
+ADD Command
+	LAURIE HANNASCH (ID 1112125), from the IS department, joined FSCbook.
+
+ADD Command
+	ZANA LENARD (ID 1112830), from the IS department, joined FSCbook.
+
+ADD Command
+	MAC ZIESMER (ID 1115302), from the IS department, joined FSCbook.
+
+ADD Command
+	MAC DROEGE (ID 1111536), from the IT department, joined FSCbook.
+
+ADD Command
+	DOUG SNITH (ID 1114483), from the IT department, joined FSCbook.
+
+ADD Command
+	RUSTY GUOAN (ID 1112077), from the CS department, joined FSCbook.
+
+ADD Command
+	AMBER SPIEGLE (ID 1114513), from the IT department, joined FSCbook.
+
+ADD Command
+	MISS ZIPSE (ID 1115304), from the IS department, joined FSCbook.
+
+ADD Command
+	RIGOBERTO CURBEAM (ID 1111210), from the CS department, joined FSCbook.
+
+ADD Command
+	NETTIE LOKUTA (ID 1112874), from the IS department, joined FSCbook.
+
+ADD Command
+	ANDREA GIOVINCO (ID 1111945), from the CS department, joined FSCbook.
+
+ADD Command
+	LENORA MCBEAN (ID 1113070), from the IS department, joined FSCbook.
+
+ADD Command
+	LEORA LARCHER (ID 1112806), from the IT department, joined FSCbook.
+
+ADD Command
+	MADELEINE UMPHREY (ID 1114922), from the CS department, joined FSCbook.
+
+ADD Command
+	BARBARA HUTSLER (ID 1112402), from the IS department, joined FSCbook.
+
+ADD Command
+	LOUISA MUSSENDEN (ID 1113345), from the IT department, joined FSCbook.
+
+ADD Command
+	IVETTE PATIK (ID 1113659), from the IS department, joined FSCbook.
+
+ADD Command
+	SYDNEY THRUMAN (ID 1114772), from the IS department, joined FSCbook.
+
+ADD Command
+	ANDRE FARRER (ID 1111715), from the CS department, joined FSCbook.
+
+ADD Command
+	DAMARIS MALLAT (ID 1112966), from the IT department, joined FSCbook.
+
+ADD Command
+	VADA DOMINSKI (ID 1111493), from the CS department, joined FSCbook.
+
+ADD Command
+	TOMI ZARLINGO (ID 1115252), from the IS department, joined FSCbook.
+
+ADD Command
+	CHERI JURKIEWICZ (ID 1112543), from the IT department, joined FSCbook.
+
+FRIEND Command
+	VADA DOMINSKI and LEORA LARCHER are now friends.
+
+PRINTFRIENDS Command
+	KARLEEN MCCARRELL has no friends.
+
+FINDNAME Command
+	Found:  ID 1112830, ZANA LENARD (IS Department)
+
+FRIEND Command
+	TYISHA SCHUCHARD and ALYSHA COGDELL are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		THOMAS COLMAN - this Student is not in FSCbook.
+
+PRINTFRIENDS Command
+	BRIGIDA BIGOS has no friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1111493, VADA DOMINSKI (CS Department):
+		There are a total of 1 friends(s).
+		Student ID 1112806, LEORA LARCHER (IT)
+
+PRINTFRIENDS Command
+	KARLEEN MCCARRELL has no friends.
+
+ADD Command
+	FLETA SWANTKO (ID 1114673), from the IS department, joined FSCbook.
+
+FRIEND Command
+	BARBARA HUTSLER and ANDRE FARRER are now friends.
+
+FRIEND Command
+	MAC DROEGE and BULAH LOFINK are now friends.
+
+FRIEND Command
+	SYLVIE CONATY and ALYSHA COGDELL are now friends.
+
+FINDNAME Command
+	Found:  ID 1111075, ALYSHA COGDELL (CS Department)
+
+FRIEND Command
+	ZANA LENARD and INGEBORG IHNEN are now friends.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+	PAMILA KORTH and MAC ZIESMER are not currently friends.
+
+PRINTFRIENDS Command
+	ELISSA BOLORIN has no friends.
+
+FRIEND Command
+	NETTIE LOKUTA and ANDRE FARRER are now friends.
+
+FRIEND Command
+	ETSUKO ARGUILLO and TAMESHA GETTLE are now friends.
+
+FRIEND Command
+	ELISSA BOLORIN and KARLEEN MCCARRELL are now friends.
+
+ADD Command
+	TAMALA HEIKES (ID 1112186), from the CS department, joined FSCbook.
+
+FRIEND Command
+	ALLENA TUDOR and ALLENA TUDOR are now friends.
+
+FRIEND Command
+	ANDRE FARRER and KARLEEN MCCARRELL are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		SIMA VANCHERI - this Student is not in FSCbook.
+
+ADD Command
+	ODESSA SKOVLUND (ID 1114473), from the CS department, joined FSCbook.
+
+FRIEND Command
+	CHERI JURKIEWICZ and TOMI ZARLINGO are now friends.
+
+FRIEND Command
+	LOUISA MUSSENDEN and LEORA LARCHER are now friends.
+
+ADD Command
+	FLOR BROGAN (ID 1110815), from the IS department, joined FSCbook.
+
+ADD Command
+	TONEY TRAGESSER (ID 1114841), from the CS department, joined FSCbook.
+
+PRINTFRIENDS Command
+	OMER DURRAH has no friends.
+
+ADD Command
+	LORENA WALER (ID 1115065), from the IT department, joined FSCbook.
+
+FINDNAME Command
+	VASHTI GORNY was not found in FSCbook.
+
+FRIEND Command
+	LENORA KAUBLE and NETTIE LOKUTA are now friends.
+
+ADD Command
+	LEIA KENFIELD (ID 1112604), from the CS department, joined FSCbook.
+
+FRIEND Command
+	ANDREA GIOVINCO and RUSTY GUOAN are now friends.
+
+FRIEND Command
+	FLOR BROGAN and CLARENCE MEHTANI are now friends.
+
+FRIEND Command
+	FLOR BROGAN and LAURIE HANNASCH are now friends.
+
+FRIEND Command
+	IVETTE PATIK and SONIA NAUSS are now friends.
+
+FRIEND Command
+	CLARENCE MEHTANI and ALYSHA COGDELL are now friends.
+
+FINDNAME Command
+	Found:  ID 1114841, TONEY TRAGESSER (CS Department)
+
+ADD Command
+	OSCAR GADE (ID 1111843), from the IT department, joined FSCbook.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+	OSCAR GADE and OSCAR GADE are not currently friends.
+
+FRIEND Command
+	WENDIE STEINKE and IVETTE PATIK are now friends.
+
+FRIEND Command
+	VADA DOMINSKI and RUSTY GUOAN are now friends.
+
+PRINTFRIENDS Command
+	MARCELO MUNNERLYN has no friends.
+
+FRIEND Command
+	LEIA KENFIELD and PAMILA KORTH are now friends.
+
+FRIEND Command
+	TOMI ZARLINGO and WINNIE BIGALK are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1112806, LEORA LARCHER (IT Department):
+		There are a total of 2 friends(s).
+		Student ID 1111493, VADA DOMINSKI (CS)
+		Student ID 1113345, LOUISA MUSSENDEN (IT)
+
+FRIEND Command
+	INGEBORG IHNEN and ELISSA BOLORIN are now friends.
+
+FRIEND Command
+	ODESSA SKOVLUND and OSCAR GADE are now friends.
+
+FINDNAME Command
+	Found:  ID 1114483, DOUG SNITH (IT Department)
+
+FRIEND Command
+	OSCAR GADE and TAMALA HEIKES are now friends.
+
+FRIEND Command
+	REBA RINKE and MISS ZIPSE are now friends.
+
+FRIEND Command
+	FLETA SWANTKO and TOMI ZARLINGO are now friends.
+
+ADD Command
+	CLEOPATRA JASINSKI (ID 1112498), from the CS department, joined FSCbook.
+
+FRIEND Command
+	CREOLA MICHELA and SONIA NAUSS are now friends.
+
+FRIEND Command
+	OMER DURRAH and LORENA WALER are now friends.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+	WINNIE BIGALK and ALYSHA COGDELL are not currently friends.
+
+FRIEND Command
+	BULAH LOFINK and HULDA BROOK are now friends.
+
+ADD Command
+	PRESTON JOHNTING (ID 1112527), from the CS department, joined FSCbook.
+
+PRINTFRIENDS Command
+	Cannot Perform PRINTFRIENDS Command:
+		MARGART HANO was not found in FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		TAMMY BLATCHFORD - this student is not in FSCbook.
+
+ADD Command
+	WAYNE CISLO (ID 1111043), from the IT department, joined FSCbook.
+
+FRIEND Command
+	GENNA CHAPMAN and MAC ZIESMER are now friends.
+
+FINDID Command
+	Found:  ID 1114304, TYISHA SCHUCHARD (IS Department)
+
+FRIEND Command
+	ZANA LENARD and MADELEINE UMPHREY are now friends.
+
+DELETE Command
+	WAYNE CISLO has been removed from FSCbook.
+
+FRIEND Command
+	LENORA MCBEAN and HULDA BROOK are now friends.
+
+FRIEND Command
+	KITTY SUNDAY and MISS ZIPSE are now friends.
+
+FRIEND Command
+	KARLEEN MCCARRELL and KITTY SUNDAY are now friends.
+
+DELETE Command
+	PRESTON JOHNTING has been removed from FSCbook.
+
+FRIEND Command
+	ANDREA GIOVINCO and WENDIE STEINKE are now friends.
+
+FRIEND Command
+	ZANA LENARD and TONEY TRAGESSER are now friends.
+
+FRIEND Command
+	TONEY TRAGESSER and BARBARA HUTSLER are now friends.
+
+ADD Command
+	BETTYE THIBEAUX (ID 1114766), from the IS department, joined FSCbook.
+
+FRIEND Command
+	FLETA SWANTKO and RUSTY GUOAN are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1110822, HULDA BROOK (IT Department):
+		There are a total of 2 friends(s).
+		Student ID 1112873, BULAH LOFINK (CS)
+		Student ID 1113070, LENORA MCBEAN (IS)
+
+FRIEND Command
+	DOUG SNITH and ANDRE FARRER are now friends.
+
+FRIEND Command
+	BETTYE THIBEAUX and ALYSHA COGDELL are now friends.
+
+ADD Command
+	JAQUELYN HUFFSTUTTER (ID 1112366), from the IS department, joined FSCbook.
+
+FRIEND Command
+	BETTYE THIBEAUX and LAURIE HANNASCH are now friends.
+
+FRIEND Command
+	LENORA KAUBLE and LOUISA MUSSENDEN are now friends.
+
+FRIEND Command
+	DOUG SNITH and LENORA KAUBLE are now friends.
+
+ADD Command
+	FARRAH NICKELSTON (ID 1113425), from the IS department, joined FSCbook.
+
+FINDNAME Command
+	Found:  ID 1110471, ETSUKO ARGUILLO (CS Department)
+
+PRINTFRIENDS Command
+	Friends for ID 1111715, ANDRE FARRER (CS Department):
+		There are a total of 4 friends(s).
+		Student ID 1112402, BARBARA HUTSLER (IS)
+		Student ID 1112874, NETTIE LOKUTA (IS)
+		Student ID 1113078, KARLEEN MCCARRELL (IS)
+		Student ID 1114483, DOUG SNITH (IT)
+
+ADD Command
+	MARANDA BARBISH (ID 1110556), from the CS department, joined FSCbook.
+
+ADD Command
+	PERRY HORNLEIN (ID 1112331), from the IS department, joined FSCbook.
+
+ADD Command
+	LIBRADA NOGGLER (ID 1113463), from the IT department, joined FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		PRESTON JOHNTING - this Student is not in FSCbook.
+
+ADD Command
+	THERESE BUVINGHAUSEN (ID 1110905), from the IS department, joined FSCbook.
+
+ADD Command
+	KIMBERLI SCHIFO (ID 1114258), from the IS department, joined FSCbook.
+
+FRIEND Command
+	WENDIE STEINKE and MAC DROEGE are now friends.
+
+ADD Command
+	RON SELIBA (ID 1114353), from the IT department, joined FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		WAYNE CISLO - this student is not in FSCbook.
+
+FRIEND Command
+	BETTYE THIBEAUX and LORENA WALER are now friends.
+
+ADD Command
+	LEONARD MIESSNER (ID 1113205), from the IT department, joined FSCbook.
+
+ADD Command
+	WALTRAUD DALLMAN (ID 1111238), from the IS department, joined FSCbook.
+
+FINDID Command
+	Found:  ID 1114473, ODESSA SKOVLUND (CS Department)
+
+FRIEND Command
+	JAQUELYN HUFFSTUTTER and LOUISA MUSSENDEN are now friends.
+
+FRIEND Command
+	ALYSHA COGDELL and BARBARA HUTSLER are now friends.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+	FARRAH NICKELSTON and GENNA CHAPMAN are not currently friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1112806, LEORA LARCHER (IT Department):
+		There are a total of 2 friends(s).
+		Student ID 1111493, VADA DOMINSKI (CS)
+		Student ID 1113345, LOUISA MUSSENDEN (IT)
+
+FRIEND Command
+	WINNIE BIGALK and OSCAR GADE are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		WAYNE CISLO - this Student is not in FSCbook.
+
+FRIEND Command
+	CREOLA MICHELA and BRIGIDA BIGOS are now friends.
+
+FRIEND Command
+	MISS ZIPSE and VADA DOMINSKI are now friends.
+
+DELETE Command
+	Cannot Perform DELETE Command:
+		CHASSIDY CARLEE was not found in FSCbook.
+
+FINDNAME Command
+	Found:  ID 1112874, NETTIE LOKUTA (IS Department)
+
+FRIEND Command
+	ANDREA GIOVINCO and OSCAR GADE are now friends.
+
+FINDNAME Command
+	Found:  ID 1112077, RUSTY GUOAN (CS Department)
+
+FRIEND Command
+	LEIA KENFIELD and OSCAR GADE are now friends.
+
+PRINTFRIENDS Command
+	DOMINGA HOHLSTEIN has no friends.
+
+FRIEND Command
+	WALTRAUD DALLMAN and VADA DOMINSKI are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1114483, DOUG SNITH (IT Department):
+		There are a total of 2 friends(s).
+		Student ID 1111715, ANDRE FARRER (CS)
+		Student ID 1112598, LENORA KAUBLE (IT)
+
+PRINTFRIENDS Command
+	Cannot Perform PRINTFRIENDS Command:
+		PROVIDENCIA BANDLEY was not found in FSCbook.
+
+FRIEND Command
+	CLEOPATRA JASINSKI and BARBARA HUTSLER are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1115302, MAC ZIESMER (IS Department):
+		There are a total of 1 friends(s).
+		Student ID 1110998, GENNA CHAPMAN (CS)
+
+FRIEND Command
+	RON SELIBA and VADA DOMINSKI are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		WAYNE CISLO - this student is not in FSCbook.
+
+PRINTFRIENDS Command
+	Friends for ID 1111536, MAC DROEGE (IT Department):
+		There are a total of 2 friends(s).
+		Student ID 1112873, BULAH LOFINK (CS)
+		Student ID 1114588, WENDIE STEINKE (CS)
+
+FRIEND Command
+	KARLEEN MCCARRELL and MAC DROEGE are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		MOHAMED DERKSEN - this student is not in FSCbook.
+
+FRIEND Command
+	WALTRAUD DALLMAN and MISS ZIPSE are now friends.
+
+FRIEND Command
+	ANAMARIA DARRELL and ELISSA BOLORIN are now friends.
+
+ADD Command
+	SALVATORE DELBO (ID 1111329), from the IS department, joined FSCbook.
+
+DELETE Command
+	LIBRADA NOGGLER has been removed from FSCbook.
+
+FRIEND Command
+	RUSTY GUOAN and AMBER SPIEGLE are now friends.
+
+FRIEND Command
+	LENORA KAUBLE and LENORA MCBEAN are now friends.
+
+FRIEND Command
+	FLETA SWANTKO and MADELEINE UMPHREY are now friends.
+
+ADD Command
+	ELIAS SHARIAT (ID 1114409), from the IT department, joined FSCbook.
+
+PRINTFRIENDS Command
+	Friends for ID 1111259, ANAMARIA DARRELL (IT Department):
+		There are a total of 1 friends(s).
+		Student ID 1110751, ELISSA BOLORIN (IT)
+
+FRIEND Command
+	JAQUELYN HUFFSTUTTER and ANASTASIA ROEHLING are now friends.
+
+ADD Command
+	DEBRAH DENEUI (ID 1111373), from the IS department, joined FSCbook.
+
+FRIEND Command
+	PAMILA KORTH and ODESSA SKOVLUND are now friends.
+
+FRIEND Command
+	RIGOBERTO CURBEAM and BULAH LOFINK are now friends.
+
+FRIEND Command
+	PAMILA KORTH and DOMINGA HOHLSTEIN are now friends.
+
+ADD Command
+	VELLA WEIKER (ID 1115110), from the CS department, joined FSCbook.
+
+FRIEND Command
+	INGEBORG IHNEN and MAC ZIESMER are now friends.
+
+FRIEND Command
+	ALLENA TUDOR and INGEBORG IHNEN are now friends.
+
+ADD Command
+	ANIBAL GIBBLE (ID 1111917), from the IT department, joined FSCbook.
+
+ADD Command
+	LARRAINE KOMAN (ID 1112694), from the IT department, joined FSCbook.
+
+ADD Command
+	GENEVIE DOMINGOS (ID 1111481), from the IT department, joined FSCbook.
+
+PRINTFRIENDS Command
+	Cannot Perform PRINTFRIENDS Command:
+		PRESTON JOHNTING was not found in FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		ENA ECCLESTON - this student is not in FSCbook.
+		MARYJO DOWKER - this Student is not in FSCbook.
+
+ADD Command
+	KENIA KREUZER (ID 1112712), from the IT department, joined FSCbook.
+
+FINDNAME Command
+	Found:  ID 1114673, FLETA SWANTKO (IS Department)
+
+PRINTFRIENDS Command
+	Cannot Perform PRINTFRIENDS Command:
+		TRINA COPA was not found in FSCbook.
+
+FRIEND Command
+	ALYSHA COGDELL and WINNIE BIGALK are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		JAQUELYN HUFFSTUTTER and LOUISA MUSSENDEN are already friends.
+
+ADD Command
+	ELIZ ARRITOLA (ID 1110493), from the IS department, joined FSCbook.
+
+FRIEND Command
+	JAQUELYN HUFFSTUTTER and REBA RINKE are now friends.
+
+ADD Command
+	DEMETRIA HUXHOLD (ID 1112403), from the CS department, joined FSCbook.
+
+PRINTFRIENDS Command
+	Friends for ID 1111112, SYLVIE CONATY (IT Department):
+		There are a total of 1 friends(s).
+		Student ID 1111075, ALYSHA COGDELL (CS)
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		MARYLYNN PALOUKOS - this student is not in FSCbook.
+
+FRIEND Command
+	ANASTASIA ROEHLING and VELLA WEIKER are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1113193, CREOLA MICHELA (CS Department):
+		There are a total of 2 friends(s).
+		Student ID 1110652, BRIGIDA BIGOS (IS)
+		Student ID 1113372, SONIA NAUSS (IT)
+
+ADD Command
+	BUSTER ERCOLANI (ID 1111648), from the IS department, joined FSCbook.
+
+FRIEND Command
+	DAMARIS MALLAT and THERESE BUVINGHAUSEN are now friends.
+
+FRIEND Command
+	DOUG SNITH and DAMARIS MALLAT are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		BLAIR BRANAMAN - this student is not in FSCbook.
+
+ADD Command
+	MARYA MOHRE (ID 1113262), from the CS department, joined FSCbook.
+
+FRIEND Command
+	CLEOPATRA JASINSKI and JAQUELYN HUFFSTUTTER are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1110822, HULDA BROOK (IT Department):
+		There are a total of 2 friends(s).
+		Student ID 1112873, BULAH LOFINK (CS)
+		Student ID 1113070, LENORA MCBEAN (IS)
+
+ADD Command
+	GUILLERMO SAPPINGTON (ID 1114217), from the IT department, joined FSCbook.
+
+PRINTFRIENDS Command
+	Friends for ID 1111238, WALTRAUD DALLMAN (IS Department):
+		There are a total of 2 friends(s).
+		Student ID 1111493, VADA DOMINSKI (CS)
+		Student ID 1115304, MISS ZIPSE (IS)
+
+FRIEND Command
+	MARANDA BARBISH and SONIA NAUSS are now friends.
+
+FRIEND Command
+	DOUG SNITH and IVETTE PATIK are now friends.
+
+DELETE Command
+	TOMI ZARLINGO has been removed from FSCbook.
+
+FRIEND Command
+	RON SELIBA and MAC DROEGE are now friends.
+
+FRIEND Command
+	KENIA KREUZER and DEMETRIA HUXHOLD are now friends.
+
+FRIEND Command
+	ETSUKO ARGUILLO and ANDREA GIOVINCO are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		ADAH DELORME - this Student is not in FSCbook.
+
+ADD Command
+	HILARY SEAN (ID 1114326), from the CS department, joined FSCbook.
+
+FRIEND Command
+	ANIBAL GIBBLE and ZANA LENARD are now friends.
+
+FRIEND Command
+	ANDREA GIOVINCO and MAC DROEGE are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1112414, INGEBORG IHNEN (IT Department):
+		There are a total of 4 friends(s).
+		Student ID 1110751, ELISSA BOLORIN (IT)
+		Student ID 1112830, ZANA LENARD (IS)
+		Student ID 1114880, ALLENA TUDOR (IS)
+		Student ID 1115302, MAC ZIESMER (IS)
+
+FINDNAME Command
+	Found:  ID 1113078, KARLEEN MCCARRELL (IS Department)
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		DEMARCUS MENONI - this student is not in FSCbook.
+		LIZBETH MONJE - this Student is not in FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		VON SWINEY - this Student is not in FSCbook.
+
+FINDNAME Command
+	OSWALDO OJALA was not found in FSCbook.
+
+ADD Command
+	SHAD DORWARD (ID 1111509), from the IS department, joined FSCbook.
+
+FRIEND Command
+	DAMARIS MALLAT and ANDREA GIOVINCO are now friends.
+
+FRIEND Command
+	ALLENA TUDOR and FLETA SWANTKO are now friends.
+
+FRIEND Command
+	LEONARD MIESSNER and ANASTASIA ROEHLING are now friends.
+
+FINDID Command
+	ID 1116606 was not found in FSCbook.
+
+ADD Command
+	CONNIE CLOWES (ID 1111059), from the IT department, joined FSCbook.
+
+ADD Command
+	CHANTE STODOLA (ID 1114602), from the CS department, joined FSCbook.
+
+FINDID Command
+	Found:  ID 1113070, LENORA MCBEAN (IS Department)
+
+PRINTFRIENDS Command
+	Friends for ID 1111493, VADA DOMINSKI (CS Department):
+		There are a total of 5 friends(s).
+		Student ID 1111238, WALTRAUD DALLMAN (IS)
+		Student ID 1112077, RUSTY GUOAN (CS)
+		Student ID 1112806, LEORA LARCHER (IT)
+		Student ID 1114353, RON SELIBA (IT)
+		Student ID 1115304, MISS ZIPSE (IS)
+
+FRIEND Command
+	CONNIE CLOWES and ANASTASIA ROEHLING are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		JESSIKA BOUYEA - this student is not in FSCbook.
+		MILES KEARLEY - this Student is not in FSCbook.
+
+DELETE Command
+	DOUG SNITH has been removed from FSCbook.
+
+FINDNAME Command
+	Found:  ID 1113205, LEONARD MIESSNER (IT Department)
+
+FRIEND Command
+	PAMILA KORTH and LEORA LARCHER are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		LAMONT CURLESS - this Student is not in FSCbook.
+
+DELETE Command
+	OMER DURRAH has been removed from FSCbook.
+
+FRIEND Command
+	ETSUKO ARGUILLO and CONNIE CLOWES are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		NADENE ASH - this Student is not in FSCbook.
+
+FINDNAME Command
+	JONELL BEVILACQUA was not found in FSCbook.
+
+ADD Command
+	DAWNA NOLIN (ID 1113468), from the CS department, joined FSCbook.
+
+ADD Command
+	SALLIE THEBEAU (ID 1114752), from the CS department, joined FSCbook.
+
+FRIEND Command
+	BARBARA HUTSLER and MAC DROEGE are now friends.
+
+FINDNAME Command
+	CHASSIDY ARANAS was not found in FSCbook.
+
+FRIEND Command
+	KITTY SUNDAY and CLARENCE MEHTANI are now friends.
+
+ADD Command
+	TAMMIE MARMIE (ID 1112995), from the IS department, joined FSCbook.
+
+ADD Command
+	KORTNEY GILCRIS (ID 1111932), from the IT department, joined FSCbook.
+
+FINDNAME Command
+	Found:  ID 1112995, TAMMIE MARMIE (IS Department)
+
+PRINTFRIENDS Command
+	Friends for ID 1115110, VELLA WEIKER (CS Department):
+		There are a total of 1 friends(s).
+		Student ID 1114071, ANASTASIA ROEHLING (IS)
+
+PRINTFRIENDS Command
+	MARCELO MUNNERLYN has no friends.
+
+ADD Command
+	LATANYA GENETTI (ID 1111902), from the IS department, joined FSCbook.
+
+FRIEND Command
+	INGEBORG IHNEN and KORTNEY GILCRIS are now friends.
+
+FRIEND Command
+	FLOR BROGAN and LEIA KENFIELD are now friends.
+
+FINDID Command
+	Found:  ID 1112995, TAMMIE MARMIE (IS Department)
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		DOUG SNITH - this Student is not in FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		PRESTON JOHNTING - this Student is not in FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		CODY GLAZE - this student is not in FSCbook.
+
+FRIEND Command
+	SALVATORE DELBO and MARCELO MUNNERLYN are now friends.
+
+ADD Command
+	ELDEN PICCIANO (ID 1113743), from the IT department, joined FSCbook.
+
+PRINTFRIENDS Command
+	ELIAS SHARIAT has no friends.
+
+ADD Command
+	SUNDAY SHINKLE (ID 1114421), from the CS department, joined FSCbook.
+
+FRIEND Command
+	ANASTASIA ROEHLING and MADELEINE UMPHREY are now friends.
+
+FRIEND Command
+	CREOLA MICHELA and CLEOPATRA JASINSKI are now friends.
+
+FRIEND Command
+	SUNDAY SHINKLE and PERRY HORNLEIN are now friends.
+
+FRIEND Command
+	DAWNA NOLIN and KIMBERLI SCHIFO are now friends.
+
+FINDNAME Command
+	PRESTON JOHNTING was not found in FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		LIBRADA NOGGLER - this Student is not in FSCbook.
+
+FRIEND Command
+	ETSUKO ARGUILLO and CLEOPATRA JASINSKI are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		OMER DURRAH - this student is not in FSCbook.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+		TOMI ZARLINGO - this Student is not in FSCbook.
+
+FINDID Command
+	Found:  ID 1113932, CHEYENNE RAMKISSOON (IT Department)
+
+FRIEND Command
+	IVETTE PATIK and KORTNEY GILCRIS are now friends.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+	CONNIE CLOWES and LEONARD MIESSNER are not currently friends.
+
+FRIEND Command
+	DEMETRIA HUXHOLD and TAMALA HEIKES are now friends.
+
+DELETE Command
+	ANDREA GIOVINCO has been removed from FSCbook.
+
+FRIEND Command
+	ELISSA BOLORIN and RON SELIBA are now friends.
+
+FRIEND Command
+	MADELEINE UMPHREY and SHAD DORWARD are now friends.
+
+FRIEND Command
+	TAMESHA GETTLE and HULDA BROOK are now friends.
+
+FRIEND Command
+	ELISSA BOLORIN and LEORA LARCHER are now friends.
+
+FRIEND Command
+	RUSTY GUOAN and HILARY SEAN are now friends.
+
+FRIEND Command
+	WALTRAUD DALLMAN and GUILLERMO SAPPINGTON are now friends.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+	WENDIE STEINKE and WINNIE BIGALK are not currently friends.
+
+FRIEND Command
+	ALYSHA COGDELL and OSCAR GADE are now friends.
+
+FRIEND Command
+	SYDNEY THRUMAN and WALTRAUD DALLMAN are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1114880, ALLENA TUDOR (IS Department):
+		There are a total of 4 friends(s).
+		Student ID 1112414, INGEBORG IHNEN (IT)
+		Student ID 1114673, FLETA SWANTKO (IS)
+		Student ID 1114880, ALLENA TUDOR (IS)
+		Student ID 1114880, ALLENA TUDOR (IS)
+
+FRIEND Command
+	TONEY TRAGESSER and GENEVIE DOMINGOS are now friends.
+
+FRIEND Command
+	SYDNEY THRUMAN and TAMMIE MARMIE are now friends.
+
+FRIEND Command
+	SUNDAY SHINKLE and SONIA NAUSS are now friends.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+	LOUISA MUSSENDEN and KITTY SUNDAY are not currently friends.
+
+FRIEND Command
+	VADA DOMINSKI and ZANA LENARD are now friends.
+
+ADD Command
+	PERLA ROSENTRATER (ID 1114107), from the IS department, joined FSCbook.
+
+PRINTMEMBERS Command
+	Members of FSCbook:
+		ID 1110471, ETSUKO ARGUILLO, (CS)
+		ID 1110493, ELIZ ARRITOLA, (IS)
+		ID 1110556, MARANDA BARBISH, (CS)
+		ID 1110634, WINNIE BIGALK, (IT)
+		ID 1110652, BRIGIDA BIGOS, (IS)
+		ID 1110751, ELISSA BOLORIN, (IT)
+		ID 1110815, FLOR BROGAN, (IS)
+		ID 1110822, HULDA BROOK, (IT)
+		ID 1110905, THERESE BUVINGHAUSEN, (IS)
+		ID 1110998, GENNA CHAPMAN, (CS)
+		ID 1111059, CONNIE CLOWES, (IT)
+		ID 1111075, ALYSHA COGDELL, (CS)
+		ID 1111112, SYLVIE CONATY, (IT)
+		ID 1111210, RIGOBERTO CURBEAM, (CS)
+		ID 1111238, WALTRAUD DALLMAN, (IS)
+		ID 1111259, ANAMARIA DARRELL, (IT)
+		ID 1111329, SALVATORE DELBO, (IS)
+		ID 1111373, DEBRAH DENEUI, (IS)
+		ID 1111481, GENEVIE DOMINGOS, (IT)
+		ID 1111493, VADA DOMINSKI, (CS)
+		ID 1111509, SHAD DORWARD, (IS)
+		ID 1111536, MAC DROEGE, (IT)
+		ID 1111648, BUSTER ERCOLANI, (IS)
+		ID 1111715, ANDRE FARRER, (CS)
+		ID 1111843, OSCAR GADE, (IT)
+		ID 1111902, LATANYA GENETTI, (IS)
+		ID 1111914, TAMESHA GETTLE, (IS)
+		ID 1111917, ANIBAL GIBBLE, (IT)
+		ID 1111932, KORTNEY GILCRIS, (IT)
+		ID 1112077, RUSTY GUOAN, (CS)
+		ID 1112125, LAURIE HANNASCH, (IS)
+		ID 1112186, TAMALA HEIKES, (CS)
+		ID 1112285, DOMINGA HOHLSTEIN, (IS)
+		ID 1112331, PERRY HORNLEIN, (IS)
+		ID 1112366, JAQUELYN HUFFSTUTTER, (IS)
+		ID 1112402, BARBARA HUTSLER, (IS)
+		ID 1112403, DEMETRIA HUXHOLD, (CS)
+		ID 1112414, INGEBORG IHNEN, (IT)
+		ID 1112498, CLEOPATRA JASINSKI, (CS)
+		ID 1112543, CHERI JURKIEWICZ, (IT)
+		ID 1112598, LENORA KAUBLE, (IT)
+		ID 1112604, LEIA KENFIELD, (CS)
+		ID 1112694, LARRAINE KOMAN, (IT)
+		ID 1112700, PAMILA KORTH, (CS)
+		ID 1112712, KENIA KREUZER, (IT)
+		ID 1112806, LEORA LARCHER, (IT)
+		ID 1112830, ZANA LENARD, (IS)
+		ID 1112873, BULAH LOFINK, (CS)
+		ID 1112874, NETTIE LOKUTA, (IS)
+		ID 1112966, DAMARIS MALLAT, (IT)
+		ID 1112995, TAMMIE MARMIE, (IS)
+		ID 1113070, LENORA MCBEAN, (IS)
+		ID 1113078, KARLEEN MCCARRELL, (IS)
+		ID 1113148, CLARENCE MEHTANI, (IT)
+		ID 1113193, CREOLA MICHELA, (CS)
+		ID 1113205, LEONARD MIESSNER, (IT)
+		ID 1113262, MARYA MOHRE, (CS)
+		ID 1113329, MARCELO MUNNERLYN, (IT)
+		ID 1113345, LOUISA MUSSENDEN, (IT)
+		ID 1113372, SONIA NAUSS, (IT)
+		ID 1113425, FARRAH NICKELSTON, (IS)
+		ID 1113468, DAWNA NOLIN, (CS)
+		ID 1113659, IVETTE PATIK, (IS)
+		ID 1113743, ELDEN PICCIANO, (IT)
+		ID 1113932, CHEYENNE RAMKISSOON, (IT)
+		ID 1114035, REBA RINKE, (IT)
+		ID 1114071, ANASTASIA ROEHLING, (IS)
+		ID 1114107, PERLA ROSENTRATER, (IS)
+		ID 1114217, GUILLERMO SAPPINGTON, (IT)
+		ID 1114258, KIMBERLI SCHIFO, (IS)
+		ID 1114304, TYISHA SCHUCHARD, (IS)
+		ID 1114326, HILARY SEAN, (CS)
+		ID 1114353, RON SELIBA, (IT)
+		ID 1114409, ELIAS SHARIAT, (IT)
+		ID 1114421, SUNDAY SHINKLE, (CS)
+		ID 1114473, ODESSA SKOVLUND, (CS)
+		ID 1114513, AMBER SPIEGLE, (IT)
+		ID 1114588, WENDIE STEINKE, (CS)
+		ID 1114602, CHANTE STODOLA, (CS)
+		ID 1114651, KITTY SUNDAY, (IS)
+		ID 1114673, FLETA SWANTKO, (IS)
+		ID 1114752, SALLIE THEBEAU, (CS)
+		ID 1114766, BETTYE THIBEAUX, (IS)
+		ID 1114772, SYDNEY THRUMAN, (IS)
+		ID 1114841, TONEY TRAGESSER, (CS)
+		ID 1114880, ALLENA TUDOR, (IS)
+		ID 1114922, MADELEINE UMPHREY, (CS)
+		ID 1115065, LORENA WALER, (IT)
+		ID 1115110, VELLA WEIKER, (CS)
+		ID 1115302, MAC ZIESMER, (IS)
+		ID 1115304, MISS ZIPSE, (IS)
+
+DELETE Command
+	TONEY TRAGESSER has been removed from FSCbook.
+
+FINDNAME Command
+	PRESTON JOHNTING was not found in FSCbook.
+
+FRIEND Command
+	MAC DROEGE and IVETTE PATIK are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1111210, RIGOBERTO CURBEAM (CS Department):
+		There are a total of 1 friends(s).
+		Student ID 1112873, BULAH LOFINK (CS)
+
+ADD Command
+	LAKENDRA KRIEGE (ID 1112715), from the IS department, joined FSCbook.
+
+FRIEND Command
+	SALLIE THEBEAU and DEBRAH DENEUI are now friends.
+
+ADD Command
+	TYRON REICHMANN (ID 1113967), from the IT department, joined FSCbook.
+
+FINDNAME Command
+	Found:  ID 1114304, TYISHA SCHUCHARD (IS Department)
+
+FRIEND Command
+	VELLA WEIKER and CLARENCE MEHTANI are now friends.
+
+FRIEND Command
+	ELDEN PICCIANO and LARRAINE KOMAN are now friends.
+
+FRIEND Command
+	RON SELIBA and CREOLA MICHELA are now friends.
+
+DELETE Command
+	CONNIE CLOWES has been removed from FSCbook.
+
+ADD Command
+	SHAUNTE ENGHOLM (ID 1111639), from the IS department, joined FSCbook.
+
+ADD Command
+	RENEE SARELLANO (ID 1114225), from the IS department, joined FSCbook.
+
+ADD Command
+	ELLAMAE HONOKAUPU (ID 1112314), from the IT department, joined FSCbook.
+
+ADD Command
+	ANJA MESHYOCK (ID 1113178), from the CS department, joined FSCbook.
+
+FRIEND Command
+	JAQUELYN HUFFSTUTTER and HILARY SEAN are now friends.
+
+FRIEND Command
+	ANAMARIA DARRELL and TAMALA HEIKES are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1111329, SALVATORE DELBO (IS Department):
+		There are a total of 1 friends(s).
+		Student ID 1113329, MARCELO MUNNERLYN (IT)
+
+FRIEND Command
+	HILARY SEAN and TYISHA SCHUCHARD are now friends.
+
+FRIEND Command
+	FLETA SWANTKO and ELIZ ARRITOLA are now friends.
+
+FRIEND Command
+	LAKENDRA KRIEGE and CHEYENNE RAMKISSOON are now friends.
+
+ADD Command
+	GARNETT LUTKUS (ID 1112923), from the IS department, joined FSCbook.
+
+FRIEND Command
+	DEMETRIA HUXHOLD and OSCAR GADE are now friends.
+
+FRIEND Command
+	DAWNA NOLIN and HILARY SEAN are now friends.
+
+FRIEND Command
+	KIMBERLI SCHIFO and ZANA LENARD are now friends.
+
+FINDNAME Command
+	Found:  ID 1112331, PERRY HORNLEIN (IS Department)
+
+FRIEND Command
+	TAMESHA GETTLE and CHERI JURKIEWICZ are now friends.
+
+FRIEND Command
+	LORENA WALER and NETTIE LOKUTA are now friends.
+
+ADD Command
+	LORENE MAW (ID 1113055), from the CS department, joined FSCbook.
+
+PRINTFRIENDS Command
+	Friends for ID 1114752, SALLIE THEBEAU (CS Department):
+		There are a total of 1 friends(s).
+		Student ID 1111373, DEBRAH DENEUI (IS)
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		DOUG SNITH - this student is not in FSCbook.
+
+FRIEND Command
+	FLETA SWANTKO and CLEOPATRA JASINSKI are now friends.
+
+ADD Command
+	LAKITA PRESNALL (ID 1113851), from the IT department, joined FSCbook.
+
+FINDNAME Command
+	Found:  ID 1112966, DAMARIS MALLAT (IT Department)
+
+FRIEND Command
+	ETSUKO ARGUILLO and ANASTASIA ROEHLING are now friends.
+
+FRIEND Command
+	RIGOBERTO CURBEAM and DEMETRIA HUXHOLD are now friends.
+
+FRIEND Command
+	TAMALA HEIKES and CLEOPATRA JASINSKI are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		TONEY TRAGESSER - this Student is not in FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		WAYNE CISLO - this student is not in FSCbook.
+		ANDREA GIOVINCO - this Student is not in FSCbook.
+
+ADD Command
+	LIEN MASLOWSKI (ID 1113036), from the IT department, joined FSCbook.
+
+ADD Command
+	FLORIDA BARBERR (ID 1110549), from the CS department, joined FSCbook.
+
+FRIEND Command
+	OSCAR GADE and FLORIDA BARBERR are now friends.
+
+FRIEND Command
+	PERRY HORNLEIN and ALLENA TUDOR are now friends.
+
+FRIEND Command
+	TAMALA HEIKES and CHEYENNE RAMKISSOON are now friends.
+
+FRIEND Command
+	OSCAR GADE and KORTNEY GILCRIS are now friends.
+
+PRINTFRIENDS Command
+	Cannot Perform PRINTFRIENDS Command:
+		MILDRED FUSCH was not found in FSCbook.
+
+PRINTFRIENDS Command
+	Friends for ID 1112966, DAMARIS MALLAT (IT Department):
+		There are a total of 1 friends(s).
+		Student ID 1110905, THERESE BUVINGHAUSEN (IS)
+
+ADD Command
+	DANIELL VERMETTE (ID 1114981), from the CS department, joined FSCbook.
+
+FINDID Command
+	Found:  ID 1111536, MAC DROEGE (IT Department)
+
+ADD Command
+	MALLORY DENZINE (ID 1111380), from the IT department, joined FSCbook.
+
+PRINTFRIENDS Command
+	Friends for ID 1111932, KORTNEY GILCRIS (IT Department):
+		There are a total of 3 friends(s).
+		Student ID 1111843, OSCAR GADE (IT)
+		Student ID 1112414, INGEBORG IHNEN (IT)
+		Student ID 1113659, IVETTE PATIK (IS)
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		TOMI ZARLINGO - this student is not in FSCbook.
+
+PRINTFRIENDS Command
+	Friends for ID 1112402, BARBARA HUTSLER (IS Department):
+		There are a total of 4 friends(s).
+		Student ID 1111075, ALYSHA COGDELL (CS)
+		Student ID 1111536, MAC DROEGE (IT)
+		Student ID 1111715, ANDRE FARRER (CS)
+		Student ID 1112498, CLEOPATRA JASINSKI (CS)
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		KIMBERLI SCHIFO and DAWNA NOLIN are already friends.
+
+FRIEND Command
+	CLARENCE MEHTANI and LEORA LARCHER are now friends.
+
+FINDNAME Command
+	WAYNE CISLO was not found in FSCbook.
+
+FRIEND Command
+	ODESSA SKOVLUND and LARRAINE KOMAN are now friends.
+
+FRIEND Command
+	TAMALA HEIKES and FARRAH NICKELSTON are now friends.
+
+FINDNAME Command
+	Found:  ID 1110471, ETSUKO ARGUILLO (CS Department)
+
+FRIEND Command
+	SHAD DORWARD and ZANA LENARD are now friends.
+
+FRIEND Command
+	LATANYA GENETTI and BETTYE THIBEAUX are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		TONEY TRAGESSER - this student is not in FSCbook.
+
+FRIEND Command
+	BETTYE THIBEAUX and TAMMIE MARMIE are now friends.
+
+FRIEND Command
+	GENEVIE DOMINGOS and LAURIE HANNASCH are now friends.
+
+FINDNAME Command
+	Found:  ID 1111075, ALYSHA COGDELL (CS Department)
+
+FRIEND Command
+	MARCELO MUNNERLYN and INGEBORG IHNEN are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1115302, MAC ZIESMER (IS Department):
+		There are a total of 2 friends(s).
+		Student ID 1110998, GENNA CHAPMAN (CS)
+		Student ID 1112414, INGEBORG IHNEN (IT)
+
+FRIEND Command
+	TYISHA SCHUCHARD and LAKITA PRESNALL are now friends.
+
+FRIEND Command
+	DEBRAH DENEUI and ANJA MESHYOCK are now friends.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+	SALLIE THEBEAU and SHAD DORWARD are not currently friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1110652, BRIGIDA BIGOS (IS Department):
+		There are a total of 1 friends(s).
+		Student ID 1113193, CREOLA MICHELA (CS)
+
+FRIEND Command
+	SALLIE THEBEAU and WINNIE BIGALK are now friends.
+
+FRIEND Command
+	MARANDA BARBISH and ALYSHA COGDELL are now friends.
+
+ADD Command
+	KAYLA GOEBEL (ID 1111970), from the IS department, joined FSCbook.
+
+FRIEND Command
+	TAMESHA GETTLE and WALTRAUD DALLMAN are now friends.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+	LORENA WALER and ELISSA BOLORIN are not currently friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1114304, TYISHA SCHUCHARD (IS Department):
+		There are a total of 3 friends(s).
+		Student ID 1111075, ALYSHA COGDELL (CS)
+		Student ID 1113851, LAKITA PRESNALL (IT)
+		Student ID 1114326, HILARY SEAN (CS)
+
+FINDID Command
+	Found:  ID 1114409, ELIAS SHARIAT (IT Department)
+
+ADD Command
+	EARNEST KEPLEY (ID 1112628), from the IS department, joined FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		JAZMIN CONATY - this Student is not in FSCbook.
+
+ADD Command
+	NATISHA FOUTE (ID 1111780), from the IT department, joined FSCbook.
+
+ADD Command
+	TYSON WINTERHOLLER (ID 1115194), from the IT department, joined FSCbook.
+
+FRIEND Command
+	KARLEEN MCCARRELL and LAKENDRA KRIEGE are now friends.
+
+PRINTMEMBERS Command
+	Members of FSCbook:
+		ID 1110471, ETSUKO ARGUILLO, (CS)
+		ID 1110493, ELIZ ARRITOLA, (IS)
+		ID 1110549, FLORIDA BARBERR, (CS)
+		ID 1110556, MARANDA BARBISH, (CS)
+		ID 1110634, WINNIE BIGALK, (IT)
+		ID 1110652, BRIGIDA BIGOS, (IS)
+		ID 1110751, ELISSA BOLORIN, (IT)
+		ID 1110815, FLOR BROGAN, (IS)
+		ID 1110822, HULDA BROOK, (IT)
+		ID 1110905, THERESE BUVINGHAUSEN, (IS)
+		ID 1110998, GENNA CHAPMAN, (CS)
+		ID 1111075, ALYSHA COGDELL, (CS)
+		ID 1111112, SYLVIE CONATY, (IT)
+		ID 1111210, RIGOBERTO CURBEAM, (CS)
+		ID 1111238, WALTRAUD DALLMAN, (IS)
+		ID 1111259, ANAMARIA DARRELL, (IT)
+		ID 1111329, SALVATORE DELBO, (IS)
+		ID 1111373, DEBRAH DENEUI, (IS)
+		ID 1111380, MALLORY DENZINE, (IT)
+		ID 1111481, GENEVIE DOMINGOS, (IT)
+		ID 1111493, VADA DOMINSKI, (CS)
+		ID 1111509, SHAD DORWARD, (IS)
+		ID 1111536, MAC DROEGE, (IT)
+		ID 1111639, SHAUNTE ENGHOLM, (IS)
+		ID 1111648, BUSTER ERCOLANI, (IS)
+		ID 1111715, ANDRE FARRER, (CS)
+		ID 1111780, NATISHA FOUTE, (IT)
+		ID 1111843, OSCAR GADE, (IT)
+		ID 1111902, LATANYA GENETTI, (IS)
+		ID 1111914, TAMESHA GETTLE, (IS)
+		ID 1111917, ANIBAL GIBBLE, (IT)
+		ID 1111932, KORTNEY GILCRIS, (IT)
+		ID 1111970, KAYLA GOEBEL, (IS)
+		ID 1112077, RUSTY GUOAN, (CS)
+		ID 1112125, LAURIE HANNASCH, (IS)
+		ID 1112186, TAMALA HEIKES, (CS)
+		ID 1112285, DOMINGA HOHLSTEIN, (IS)
+		ID 1112314, ELLAMAE HONOKAUPU, (IT)
+		ID 1112331, PERRY HORNLEIN, (IS)
+		ID 1112366, JAQUELYN HUFFSTUTTER, (IS)
+		ID 1112402, BARBARA HUTSLER, (IS)
+		ID 1112403, DEMETRIA HUXHOLD, (CS)
+		ID 1112414, INGEBORG IHNEN, (IT)
+		ID 1112498, CLEOPATRA JASINSKI, (CS)
+		ID 1112543, CHERI JURKIEWICZ, (IT)
+		ID 1112598, LENORA KAUBLE, (IT)
+		ID 1112604, LEIA KENFIELD, (CS)
+		ID 1112628, EARNEST KEPLEY, (IS)
+		ID 1112694, LARRAINE KOMAN, (IT)
+		ID 1112700, PAMILA KORTH, (CS)
+		ID 1112712, KENIA KREUZER, (IT)
+		ID 1112715, LAKENDRA KRIEGE, (IS)
+		ID 1112806, LEORA LARCHER, (IT)
+		ID 1112830, ZANA LENARD, (IS)
+		ID 1112873, BULAH LOFINK, (CS)
+		ID 1112874, NETTIE LOKUTA, (IS)
+		ID 1112923, GARNETT LUTKUS, (IS)
+		ID 1112966, DAMARIS MALLAT, (IT)
+		ID 1112995, TAMMIE MARMIE, (IS)
+		ID 1113036, LIEN MASLOWSKI, (IT)
+		ID 1113055, LORENE MAW, (CS)
+		ID 1113070, LENORA MCBEAN, (IS)
+		ID 1113078, KARLEEN MCCARRELL, (IS)
+		ID 1113148, CLARENCE MEHTANI, (IT)
+		ID 1113178, ANJA MESHYOCK, (CS)
+		ID 1113193, CREOLA MICHELA, (CS)
+		ID 1113205, LEONARD MIESSNER, (IT)
+		ID 1113262, MARYA MOHRE, (CS)
+		ID 1113329, MARCELO MUNNERLYN, (IT)
+		ID 1113345, LOUISA MUSSENDEN, (IT)
+		ID 1113372, SONIA NAUSS, (IT)
+		ID 1113425, FARRAH NICKELSTON, (IS)
+		ID 1113468, DAWNA NOLIN, (CS)
+		ID 1113659, IVETTE PATIK, (IS)
+		ID 1113743, ELDEN PICCIANO, (IT)
+		ID 1113851, LAKITA PRESNALL, (IT)
+		ID 1113932, CHEYENNE RAMKISSOON, (IT)
+		ID 1113967, TYRON REICHMANN, (IT)
+		ID 1114035, REBA RINKE, (IT)
+		ID 1114071, ANASTASIA ROEHLING, (IS)
+		ID 1114107, PERLA ROSENTRATER, (IS)
+		ID 1114217, GUILLERMO SAPPINGTON, (IT)
+		ID 1114225, RENEE SARELLANO, (IS)
+		ID 1114258, KIMBERLI SCHIFO, (IS)
+		ID 1114304, TYISHA SCHUCHARD, (IS)
+		ID 1114326, HILARY SEAN, (CS)
+		ID 1114353, RON SELIBA, (IT)
+		ID 1114409, ELIAS SHARIAT, (IT)
+		ID 1114421, SUNDAY SHINKLE, (CS)
+		ID 1114473, ODESSA SKOVLUND, (CS)
+		ID 1114513, AMBER SPIEGLE, (IT)
+		ID 1114588, WENDIE STEINKE, (CS)
+		ID 1114602, CHANTE STODOLA, (CS)
+		ID 1114651, KITTY SUNDAY, (IS)
+		ID 1114673, FLETA SWANTKO, (IS)
+		ID 1114752, SALLIE THEBEAU, (CS)
+		ID 1114766, BETTYE THIBEAUX, (IS)
+		ID 1114772, SYDNEY THRUMAN, (IS)
+		ID 1114880, ALLENA TUDOR, (IS)
+		ID 1114922, MADELEINE UMPHREY, (CS)
+		ID 1114981, DANIELL VERMETTE, (CS)
+		ID 1115065, LORENA WALER, (IT)
+		ID 1115110, VELLA WEIKER, (CS)
+		ID 1115194, TYSON WINTERHOLLER, (IT)
+		ID 1115302, MAC ZIESMER, (IS)
+		ID 1115304, MISS ZIPSE, (IS)
+
+ADD Command
+	WALTON FORESMAN (ID 1111771), from the CS department, joined FSCbook.
+
+FRIEND Command
+	LOUISA MUSSENDEN and AMBER SPIEGLE are now friends.
+
+ADD Command
+	WALLACE HAMLING (ID 1112113), from the IS department, joined FSCbook.
+
+ADD Command
+	GARY BLEAKLEY (ID 1110711), from the IT department, joined FSCbook.
+
+ADD Command
+	KLARA LOVVORN (ID 1112888), from the IS department, joined FSCbook.
+
+ADD Command
+	ELBERT MLENAR (ID 1113256), from the CS department, joined FSCbook.
+
+FRIEND Command
+	KITTY SUNDAY and CHERI JURKIEWICZ are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1110652, BRIGIDA BIGOS (IS Department):
+		There are a total of 1 friends(s).
+		Student ID 1113193, CREOLA MICHELA (CS)
+
+FRIEND Command
+	VADA DOMINSKI and ODESSA SKOVLUND are now friends.
+
+ADD Command
+	CLARITA TOTTINGHAM (ID 1114815), from the IS department, joined FSCbook.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+	LEIA KENFIELD and LOUISA MUSSENDEN are not currently friends.
+
+FRIEND Command
+	ODESSA SKOVLUND and TYRON REICHMANN are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		JENEE DEMATOS - this Student is not in FSCbook.
+
+FRIEND Command
+	REBA RINKE and WINNIE BIGALK are now friends.
+
+ADD Command
+	AUDREY HEIDINGER (ID 1112183), from the IT department, joined FSCbook.
+
+FRIEND Command
+	KLARA LOVVORN and FLETA SWANTKO are now friends.
+
+ADD Command
+	STEPHEN CORNELY (ID 1111136), from the IT department, joined FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		DOUG SNITH - this student is not in FSCbook.
+
+PRINTFRIENDS Command
+	Friends for ID 1112402, BARBARA HUTSLER (IS Department):
+		There are a total of 4 friends(s).
+		Student ID 1111075, ALYSHA COGDELL (CS)
+		Student ID 1111536, MAC DROEGE (IT)
+		Student ID 1111715, ANDRE FARRER (CS)
+		Student ID 1112498, CLEOPATRA JASINSKI (CS)
+
+FRIEND Command
+	MARANDA BARBISH and TYRON REICHMANN are now friends.
+
+DELETE Command
+	WALTRAUD DALLMAN has been removed from FSCbook.
+
+FINDNAME Command
+	Found:  ID 1114815, CLARITA TOTTINGHAM (IS Department)
+
+FRIEND Command
+	GENEVIE DOMINGOS and FLOR BROGAN are now friends.
+
+FRIEND Command
+	VELLA WEIKER and TYRON REICHMANN are now friends.
+
+PRINTFRIENDS Command
+	Cannot Perform PRINTFRIENDS Command:
+		WAYNE CISLO was not found in FSCbook.
+
+ADD Command
+	ELEONOR BORLIN (ID 1110760), from the IS department, joined FSCbook.
+
+FRIEND Command
+	MARANDA BARBISH and BETTYE THIBEAUX are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		TOMI ZARLINGO - this Student is not in FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		LIBRADA NOGGLER - this Student is not in FSCbook.
+
+FRIEND Command
+	TAMALA HEIKES and ELIZ ARRITOLA are now friends.
+
+FRIEND Command
+	KENIA KREUZER and TAMALA HEIKES are now friends.
+
+FRIEND Command
+	LENORA MCBEAN and KAYLA GOEBEL are now friends.
+
+PRINTFRIENDS Command
+	AUDREY HEIDINGER has no friends.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+	RIGOBERTO CURBEAM and CHANTE STODOLA are not currently friends.
+
+FINDID Command
+	Found:  ID 1111648, BUSTER ERCOLANI (IS Department)
+
+FRIEND Command
+	MARYA MOHRE and LAKITA PRESNALL are now friends.
+
+FRIEND Command
+	LEIA KENFIELD and GENNA CHAPMAN are now friends.
+
+FRIEND Command
+	KLARA LOVVORN and OSCAR GADE are now friends.
+
+ADD Command
+	HOLLY PARTIN (ID 1113643), from the CS department, joined FSCbook.
+
+FRIEND Command
+	DAWNA NOLIN and LEORA LARCHER are now friends.
+
+FRIEND Command
+	WINNIE BIGALK and CHANTE STODOLA are now friends.
+
+FRIEND Command
+	ELIAS SHARIAT and KARLEEN MCCARRELL are now friends.
+
+FRIEND Command
+	WALTON FORESMAN and DAMARIS MALLAT are now friends.
+
+ADD Command
+	FLORENCE TECSON (ID 1114722), from the IT department, joined FSCbook.
+
+FINDNAME Command
+	Found:  ID 1111075, ALYSHA COGDELL (CS Department)
+
+PRINTFRIENDS Command
+	Cannot Perform PRINTFRIENDS Command:
+		MONICA HILGER was not found in FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		OMER DURRAH - this student is not in FSCbook.
+
+FINDID Command
+	Found:  ID 1111536, MAC DROEGE (IT Department)
+
+DELETE Command
+	KAYLA GOEBEL has been removed from FSCbook.
+
+ADD Command
+	PERLA RIVIRA (ID 1114046), from the CS department, joined FSCbook.
+
+DELETE Command
+	LORENE MAW has been removed from FSCbook.
+
+ADD Command
+	LIZZIE TUROCY (ID 1114905), from the IT department, joined FSCbook.
+
+PRINTFRIENDS Command
+	Friends for ID 1113468, DAWNA NOLIN (CS Department):
+		There are a total of 3 friends(s).
+		Student ID 1112806, LEORA LARCHER (IT)
+		Student ID 1114258, KIMBERLI SCHIFO (IS)
+		Student ID 1114326, HILARY SEAN (CS)
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		BURT MCCAUSLAND - this student is not in FSCbook.
+		SHEBA BIAVA - this Student is not in FSCbook.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+		SOMER ALTRECHE - this student is not in FSCbook.
+
+FRIEND Command
+	CHEYENNE RAMKISSOON and VELLA WEIKER are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1112700, PAMILA KORTH (CS Department):
+		There are a total of 4 friends(s).
+		Student ID 1112285, DOMINGA HOHLSTEIN (IS)
+		Student ID 1112604, LEIA KENFIELD (CS)
+		Student ID 1112806, LEORA LARCHER (IT)
+		Student ID 1114473, ODESSA SKOVLUND (CS)
+
+DELETE Command
+	Cannot Perform DELETE Command:
+		YAEKO SAHU was not found in FSCbook.
+
+FRIEND Command
+	ANIBAL GIBBLE and ETSUKO ARGUILLO are now friends.
+
+FRIEND Command
+	BUSTER ERCOLANI and GARY BLEAKLEY are now friends.
+
+FRIEND Command
+	CLEOPATRA JASINSKI and DAMARIS MALLAT are now friends.
+
+FRIEND Command
+	ELBERT MLENAR and LORENA WALER are now friends.
+
+FRIEND Command
+	LEORA LARCHER and SYLVIE CONATY are now friends.
+
+PRINTFRIENDS Command
+	Cannot Perform PRINTFRIENDS Command:
+		LEAN ELQUIST was not found in FSCbook.
+
+FRIEND Command
+	CLEOPATRA JASINSKI and KITTY SUNDAY are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		ELISHA TALLY - this student is not in FSCbook.
+
+FRIEND Command
+	FLORENCE TECSON and SUNDAY SHINKLE are now friends.
+
+PRINTMEMBERS Command
+	Members of FSCbook:
+		ID 1110471, ETSUKO ARGUILLO, (CS)
+		ID 1110493, ELIZ ARRITOLA, (IS)
+		ID 1110549, FLORIDA BARBERR, (CS)
+		ID 1110556, MARANDA BARBISH, (CS)
+		ID 1110634, WINNIE BIGALK, (IT)
+		ID 1110652, BRIGIDA BIGOS, (IS)
+		ID 1110711, GARY BLEAKLEY, (IT)
+		ID 1110751, ELISSA BOLORIN, (IT)
+		ID 1110760, ELEONOR BORLIN, (IS)
+		ID 1110815, FLOR BROGAN, (IS)
+		ID 1110822, HULDA BROOK, (IT)
+		ID 1110905, THERESE BUVINGHAUSEN, (IS)
+		ID 1110998, GENNA CHAPMAN, (CS)
+		ID 1111075, ALYSHA COGDELL, (CS)
+		ID 1111112, SYLVIE CONATY, (IT)
+		ID 1111136, STEPHEN CORNELY, (IT)
+		ID 1111210, RIGOBERTO CURBEAM, (CS)
+		ID 1111259, ANAMARIA DARRELL, (IT)
+		ID 1111329, SALVATORE DELBO, (IS)
+		ID 1111373, DEBRAH DENEUI, (IS)
+		ID 1111380, MALLORY DENZINE, (IT)
+		ID 1111481, GENEVIE DOMINGOS, (IT)
+		ID 1111493, VADA DOMINSKI, (CS)
+		ID 1111509, SHAD DORWARD, (IS)
+		ID 1111536, MAC DROEGE, (IT)
+		ID 1111639, SHAUNTE ENGHOLM, (IS)
+		ID 1111648, BUSTER ERCOLANI, (IS)
+		ID 1111715, ANDRE FARRER, (CS)
+		ID 1111771, WALTON FORESMAN, (CS)
+		ID 1111780, NATISHA FOUTE, (IT)
+		ID 1111843, OSCAR GADE, (IT)
+		ID 1111902, LATANYA GENETTI, (IS)
+		ID 1111914, TAMESHA GETTLE, (IS)
+		ID 1111917, ANIBAL GIBBLE, (IT)
+		ID 1111932, KORTNEY GILCRIS, (IT)
+		ID 1112077, RUSTY GUOAN, (CS)
+		ID 1112113, WALLACE HAMLING, (IS)
+		ID 1112125, LAURIE HANNASCH, (IS)
+		ID 1112183, AUDREY HEIDINGER, (IT)
+		ID 1112186, TAMALA HEIKES, (CS)
+		ID 1112285, DOMINGA HOHLSTEIN, (IS)
+		ID 1112314, ELLAMAE HONOKAUPU, (IT)
+		ID 1112331, PERRY HORNLEIN, (IS)
+		ID 1112366, JAQUELYN HUFFSTUTTER, (IS)
+		ID 1112402, BARBARA HUTSLER, (IS)
+		ID 1112403, DEMETRIA HUXHOLD, (CS)
+		ID 1112414, INGEBORG IHNEN, (IT)
+		ID 1112498, CLEOPATRA JASINSKI, (CS)
+		ID 1112543, CHERI JURKIEWICZ, (IT)
+		ID 1112598, LENORA KAUBLE, (IT)
+		ID 1112604, LEIA KENFIELD, (CS)
+		ID 1112628, EARNEST KEPLEY, (IS)
+		ID 1112694, LARRAINE KOMAN, (IT)
+		ID 1112700, PAMILA KORTH, (CS)
+		ID 1112712, KENIA KREUZER, (IT)
+		ID 1112715, LAKENDRA KRIEGE, (IS)
+		ID 1112806, LEORA LARCHER, (IT)
+		ID 1112830, ZANA LENARD, (IS)
+		ID 1112873, BULAH LOFINK, (CS)
+		ID 1112874, NETTIE LOKUTA, (IS)
+		ID 1112888, KLARA LOVVORN, (IS)
+		ID 1112923, GARNETT LUTKUS, (IS)
+		ID 1112966, DAMARIS MALLAT, (IT)
+		ID 1112995, TAMMIE MARMIE, (IS)
+		ID 1113036, LIEN MASLOWSKI, (IT)
+		ID 1113070, LENORA MCBEAN, (IS)
+		ID 1113078, KARLEEN MCCARRELL, (IS)
+		ID 1113148, CLARENCE MEHTANI, (IT)
+		ID 1113178, ANJA MESHYOCK, (CS)
+		ID 1113193, CREOLA MICHELA, (CS)
+		ID 1113205, LEONARD MIESSNER, (IT)
+		ID 1113256, ELBERT MLENAR, (CS)
+		ID 1113262, MARYA MOHRE, (CS)
+		ID 1113329, MARCELO MUNNERLYN, (IT)
+		ID 1113345, LOUISA MUSSENDEN, (IT)
+		ID 1113372, SONIA NAUSS, (IT)
+		ID 1113425, FARRAH NICKELSTON, (IS)
+		ID 1113468, DAWNA NOLIN, (CS)
+		ID 1113643, HOLLY PARTIN, (CS)
+		ID 1113659, IVETTE PATIK, (IS)
+		ID 1113743, ELDEN PICCIANO, (IT)
+		ID 1113851, LAKITA PRESNALL, (IT)
+		ID 1113932, CHEYENNE RAMKISSOON, (IT)
+		ID 1113967, TYRON REICHMANN, (IT)
+		ID 1114035, REBA RINKE, (IT)
+		ID 1114046, PERLA RIVIRA, (CS)
+		ID 1114071, ANASTASIA ROEHLING, (IS)
+		ID 1114107, PERLA ROSENTRATER, (IS)
+		ID 1114217, GUILLERMO SAPPINGTON, (IT)
+		ID 1114225, RENEE SARELLANO, (IS)
+		ID 1114258, KIMBERLI SCHIFO, (IS)
+		ID 1114304, TYISHA SCHUCHARD, (IS)
+		ID 1114326, HILARY SEAN, (CS)
+		ID 1114353, RON SELIBA, (IT)
+		ID 1114409, ELIAS SHARIAT, (IT)
+		ID 1114421, SUNDAY SHINKLE, (CS)
+		ID 1114473, ODESSA SKOVLUND, (CS)
+		ID 1114513, AMBER SPIEGLE, (IT)
+		ID 1114588, WENDIE STEINKE, (CS)
+		ID 1114602, CHANTE STODOLA, (CS)
+		ID 1114651, KITTY SUNDAY, (IS)
+		ID 1114673, FLETA SWANTKO, (IS)
+		ID 1114722, FLORENCE TECSON, (IT)
+		ID 1114752, SALLIE THEBEAU, (CS)
+		ID 1114766, BETTYE THIBEAUX, (IS)
+		ID 1114772, SYDNEY THRUMAN, (IS)
+		ID 1114815, CLARITA TOTTINGHAM, (IS)
+		ID 1114880, ALLENA TUDOR, (IS)
+		ID 1114905, LIZZIE TUROCY, (IT)
+		ID 1114922, MADELEINE UMPHREY, (CS)
+		ID 1114981, DANIELL VERMETTE, (CS)
+		ID 1115065, LORENA WALER, (IT)
+		ID 1115110, VELLA WEIKER, (CS)
+		ID 1115194, TYSON WINTERHOLLER, (IT)
+		ID 1115302, MAC ZIESMER, (IS)
+		ID 1115304, MISS ZIPSE, (IS)
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		LENORA KAUBLE and NETTIE LOKUTA are already friends.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+		ALYSON RECEK - this student is not in FSCbook.
+		JAMIKA MIZZELLE - this Student is not in FSCbook.
+
+FRIEND Command
+	TAMESHA GETTLE and REBA RINKE are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		DOUG SNITH - this Student is not in FSCbook.
+
+FRIEND Command
+	EARNEST KEPLEY and LARRAINE KOMAN are now friends.
+
+FINDID Command
+	ID 1117003 was not found in FSCbook.
+
+FRIEND Command
+	GENEVIE DOMINGOS and INGEBORG IHNEN are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1112498, CLEOPATRA JASINSKI (CS Department):
+		There are a total of 8 friends(s).
+		Student ID 1110471, ETSUKO ARGUILLO (CS)
+		Student ID 1112186, TAMALA HEIKES (CS)
+		Student ID 1112366, JAQUELYN HUFFSTUTTER (IS)
+		Student ID 1112402, BARBARA HUTSLER (IS)
+		Student ID 1112966, DAMARIS MALLAT (IT)
+		Student ID 1113193, CREOLA MICHELA (CS)
+		Student ID 1114651, KITTY SUNDAY (IS)
+		Student ID 1114673, FLETA SWANTKO (IS)
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		TONEY TRAGESSER - this Student is not in FSCbook.
+
+FRIEND Command
+	RON SELIBA and AMBER SPIEGLE are now friends.
+
+FRIEND Command
+	OSCAR GADE and AUDREY HEIDINGER are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		CORRIE HAMBRIC - this student is not in FSCbook.
+		RASHEEDA LOCKSHAW - this Student is not in FSCbook.
+
+FRIEND Command
+	ZANA LENARD and LAKENDRA KRIEGE are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1112604, LEIA KENFIELD (CS Department):
+		There are a total of 4 friends(s).
+		Student ID 1110815, FLOR BROGAN (IS)
+		Student ID 1110998, GENNA CHAPMAN (CS)
+		Student ID 1111843, OSCAR GADE (IT)
+		Student ID 1112700, PAMILA KORTH (CS)
+
+FRIEND Command
+	KORTNEY GILCRIS and WALLACE HAMLING are now friends.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+	ALYSHA COGDELL and JAQUELYN HUFFSTUTTER are not currently friends.
+
+ADD Command
+	VIRGEN HEATWOLE (ID 1112177), from the CS department, joined FSCbook.
+
+FINDID Command
+	Found:  ID 1112498, CLEOPATRA JASINSKI (CS Department)
+
+FRIEND Command
+	GARY BLEAKLEY and LOUISA MUSSENDEN are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		LIBRADA NOGGLER - this student is not in FSCbook.
+
+ADD Command
+	ZOILA PEEL (ID 1113662), from the CS department, joined FSCbook.
+
+PRINTFRIENDS Command
+	HOLLY PARTIN has no friends.
+
+FRIEND Command
+	LAURIE HANNASCH and PAMILA KORTH are now friends.
+
+FRIEND Command
+	LAKITA PRESNALL and LATANYA GENETTI are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1110549, FLORIDA BARBERR (CS Department):
+		There are a total of 1 friends(s).
+		Student ID 1111843, OSCAR GADE (IT)
+
+ADD Command
+	LATOSHA CARRIZALES (ID 1110962), from the IS department, joined FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		TOMI ZARLINGO - this Student is not in FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		WAYNE CISLO - this Student is not in FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		GAYLA HILLMER - this student is not in FSCbook.
+
+PRINTFRIENDS Command
+	Friends for ID 1114035, REBA RINKE (IT Department):
+		There are a total of 4 friends(s).
+		Student ID 1110634, WINNIE BIGALK (IT)
+		Student ID 1111914, TAMESHA GETTLE (IS)
+		Student ID 1112366, JAQUELYN HUFFSTUTTER (IS)
+		Student ID 1115304, MISS ZIPSE (IS)
+
+ADD Command
+	MORGAN DELTUFO (ID 1111358), from the CS department, joined FSCbook.
+
+FRIEND Command
+	DOMINGA HOHLSTEIN and DANIELL VERMETTE are now friends.
+
+PRINTFRIENDS Command
+	Friends for ID 1112966, DAMARIS MALLAT (IT Department):
+		There are a total of 3 friends(s).
+		Student ID 1110905, THERESE BUVINGHAUSEN (IS)
+		Student ID 1111771, WALTON FORESMAN (CS)
+		Student ID 1112498, CLEOPATRA JASINSKI (CS)
+
+FRIEND Command
+	KIMBERLI SCHIFO and LATOSHA CARRIZALES are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		WALTRAUD DALLMAN - this Student is not in FSCbook.
+
+FINDID Command
+	Found:  ID 1112498, CLEOPATRA JASINSKI (CS Department)
+
+FINDNAME Command
+	KAYLA GOEBEL was not found in FSCbook.
+
+FRIEND Command
+	BARBARA HUTSLER and LARRAINE KOMAN are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		NANNIE TORIGIAN - this Student is not in FSCbook.
+
+FINDID Command
+	Found:  ID 1112177, VIRGEN HEATWOLE (CS Department)
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		TONEY TRAGESSER - this Student is not in FSCbook.
+
+PRINTFRIENDS Command
+	Friends for ID 1114752, SALLIE THEBEAU (CS Department):
+		There are a total of 2 friends(s).
+		Student ID 1110634, WINNIE BIGALK (IT)
+		Student ID 1111373, DEBRAH DENEUI (IS)
+
+FRIEND Command
+	ANASTASIA ROEHLING and TAMALA HEIKES are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		TOCCARA HOLZHAUER - this student is not in FSCbook.
+		CAROLYNN PETTIS - this Student is not in FSCbook.
+
+ADD Command
+	COLETTA VICTORINO (ID 1114994), from the CS department, joined FSCbook.
+
