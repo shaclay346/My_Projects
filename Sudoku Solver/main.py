@@ -93,10 +93,10 @@ def solve(board):
 
 
 
-print("\nunsolved sudoku board:\n")
+print("\nunsolved sudoku board:")
 print_board(board)
 
 
-print("\nafter the call we have this board:\n")
+print("\nafter calling the algorithm, the result is a solved board")
 solve(board)
 print_board(board)
