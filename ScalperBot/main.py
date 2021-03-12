@@ -77,5 +77,5 @@ if foundButton:
     #spam myself to make sure I see it
     for i in range(5):
         client = boto3.client('sns', 'us-west-1')
-        client.publish(PhoneNumber='+1 (720) 635-6562', Message='the item has been purchased')
+        client.publish(PhoneNumber='+1 (xxx) xxx-xxxx', Message='the item has been purchased')
 
