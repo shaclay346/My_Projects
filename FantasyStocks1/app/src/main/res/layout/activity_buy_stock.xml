@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buyButton"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.createGame.createGame"
+    android:background="@color/list_background">
+
+    <TextView
+        android:id="@+id/nameofGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="56dp"
+        android:text="__________"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enterTicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="32dp"
+        android:hint="enter stock ticker"
+        android:ems="10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameofGame" />
+
+    <Button
+        android:id="@+id/enterButton"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="133dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="32dp"
+        android:text="enter"
+        app:backgroundTint="@color/teal_700"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterTicker" />
+
+    <TextView
+        android:id="@+id/stockName"
+        android:layout_width="118dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="36dp"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterButton" />
+
+    <TextView
+        android:id="@+id/stockPrice"
+        android:layout_width="101dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="68dp"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/stockName"
+        app:layout_constraintTop_toBottomOf="@+id/enterButton" />
+
+    <TextView
+        android:id="@+id/sharesOwned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockPrice" />
+
+    <EditText
+        android:id="@+id/stockQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:hint="enter quantity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sharesOwned" />
+
+    <Button
+        android:id="@+id/enterButton2"
+        android:layout_width="133dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_height="35dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="16dp"
+        android:text="enter"
+        app:backgroundTint="@color/teal_700"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockQuantity" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/enterButton2" />
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="119dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
+        android:text="buy"
+        app:backgroundTint="@color/teal_700"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultText" />
+
+    <Button
+        android:id="@+id/sell_button"
+        android:layout_width="119dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:text="sell"
+        app:backgroundTint="@color/teal_700"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintStart_toEndOf="@+id/confirm_button"
+        app:layout_constraintTop_toBottomOf="@+id/resultText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

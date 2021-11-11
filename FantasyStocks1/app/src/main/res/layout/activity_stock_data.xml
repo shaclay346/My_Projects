@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_background"
+    tools:context=".stockData">
+
+    <TextView
+        android:id="@+id/stockName"
+        android:layout_width="300dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="176dp"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/stockTicker"
+        android:layout_width="148dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockName" />
+
+    <TextView
+        android:id="@+id/stockPrice"
+        android:layout_width="148dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockTicker" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
