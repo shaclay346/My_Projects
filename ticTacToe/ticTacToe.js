@@ -1,37 +1,39 @@
 
 //init();
 let scores = {
-    X: 10,
-    O: -10,
+    //human starts as x
+    X: -1,
+    //ai is O so they should have the highest score 
+    O: 1,
     tie: 0
 };
 
 
 
-function selectO() {
-    const oButton = document.querySelector('.mode');
-    const xButton = document.querySelector('.mode.selected');
+// function selectO() {
+//     const oButton = document.querySelector('.mode');
+//     const xButton = document.querySelector('.mode.selected');
 
-    xButton.classList.remove('selected');
-    oButton.classList.add('selected');
-}
+//     xButton.classList.remove('selected');
+//     oButton.classList.add('selected');
+// }
 
 
-function selectX() {
-    const buttons = document.querySelectorAll('.mode');
+// function selectX() {
+//     const buttons = document.querySelectorAll('.mode');
 
-    buttons[0].classList.remove('selected');
-    buttons[1].classList.add('selected');
-}
+//     buttons[0].classList.remove('selected');
+//     buttons[1].classList.add('selected');
+// }
 
-function getNum(square) {
-    const squares = document.querySelectorAll('.square');
-    for (let i = 0; i < squares.length; i++) {
-        if (squares[i] == square) {
-            return i;
-        }
-    }
-}
+// function getNum(square) {
+//     const squares = document.querySelectorAll('.square');
+//     for (let i = 0; i < squares.length; i++) {
+//         if (squares[i] == square) {
+//             return i;
+//         }
+//     }
+// }
 
 function allEqual(spot1, spot2, spot3) {
     if (spot1.innerText == spot2.innerText && spot2.innerText == spot3.innerText && spot1.innerText != '') {
@@ -54,6 +56,7 @@ function openSpots(board) {
 function getBoard() {
     const squares = document.querySelectorAll('.square');
 
+    //make the squares into a 2d array
     let board = [
         [squares[0], squares[1], squares[2]],
         [squares[3], squares[4], squares[5]],
@@ -63,34 +66,50 @@ function getBoard() {
     return board;
 }
 
+function printBoard(board) {
+    for (let i = 0; i < 3; i++) {
+        for (let j = 0; j < 3; j++) {
+            console.log(board[i][j].innerHTML);
+        }
+    }
+}
+
+
+
 function bestMove(board) {
     // AI to make its turn
-    let bestScore = -Infinity;
+    let highScore = -Infinity;
     let move;
     for (let i = 0; i < 3; i++) {
         for (let j = 0; j < 3; j++) {
             // if the spot is empty
             if (board[i][j].innerText == '') {
-                board[i][j].innerHTML == '<p>O</p>';
+                //play for the AI at every spot
+                board[i][j].innerText = 'O';
 
-                let score = minimax(board, 0, false);
+                let score = minimax(board, false, 0);
 
                 board[i][j].innerHTML = '';
-                //not getting into here score is not correct
-                if (score > bestScore) {
-                    console.log("enter here");
-                    bestScore = score;
+                //if the score is higher than best score
+                if (score > highScore) {
+                    //console.log("enter here");
+                    highScore = score;
                     move = { i, j };
                 }
             }
         }
     }
-    //console.log(move.i, move.j);
-    board[move.i][move.j].innerText = '<p>O</p>';
+    //have the computer play the best move
+    board[move.i][move.j].innerHTML = '<p>O</p>';
+    win = checkWinner();
+    if (win != null) {
+        displayWinner();
+    }
 }
 
-
-function minimax(board, depth, isMaximizing) {
+//keep track of number of wins for given score
+//or don't search entire game, just a couple moves ahead 
+function minimax(board, isAiTurn, numberOfWins) {
     let result = checkWinner();
 
     //if there was winner or a tie 
@@ -99,38 +118,59 @@ function minimax(board, depth, isMaximizing) {
         return scores[result];
     }
 
-    if (isMaximizing) {
-        console.log("maximizing");
-        let bestScore = -Infinity;
+    if (isAiTurn) {
+        // console.log("AI turn");
+        let highScore = -Infinity;
+
         for (let i = 0; i < 3; i++) {
             for (let j = 0; j < 3; j++) {
-                // Is the spot available?
+                // if the spot is empty
                 if (board[i][j].innerText == '') {
-                    board[i][j].innerHTML = '<p>X</p>';
-                    let score = minimax(board, depth + 1, false);
+                    //ai
+                    board[i][j].innerText = 'O';
+                    let score = minimax(board, false);
                     board[i][j].innerText = '';
-                    bestScore = Math.max(score, bestScore);
+                    if (score > highScore) {
+                        highScore = score;
+                    }
                 }
             }
         }
-        console.log("best score is: ", bestScore);
-        return bestScore;
+        //error could be here
+        // console.log("best score is top: ", highScore);
+        return highScore;
     } else {
-        console.log("minimizing");
-        let bestScore = Infinity;
+        //console.log("human turn");
+        let highScore = Infinity;
         for (let i = 0; i < 3; i++) {
             for (let j = 0; j < 3; j++) {
-                // Is the spot available?
+                // if the spot is empty
                 if (board[i][j].innerText == '') {
-                    board[i][j].innerHTML = 'O';
-                    let score = minimax(board, depth + 1, true);
+                    //player
+                    board[i][j].innerText = 'X';
+                    let score = minimax(board, true);
                     board[i][j].innerText = '';
-                    bestScore = Math.min(score, bestScore);
+                    if (score < highScore) {
+                        highScore = score;
+                    }
                 }
             }
         }
-        console.log("best score is minimizing: ", bestScore);
-        return bestScore;
+        // console.log("best score is bottom: ", highScore);
+        return highScore;
+    }
+}
+
+function displayWinner(winner) {
+    //if board is full and no one wins 
+    if (winner == 'tie') {
+        const message = document.getElementById('message');
+        message.innerText = "Tie!";
+    }
+    //else have some winning animation happen 
+    else {
+        const message = document.getElementById('message');
+        message.innerText = "Winner!";
     }
 }
 
@@ -146,7 +186,6 @@ function checkWinner() {
         [squares[3], squares[4], squares[5]],
         [squares[6], squares[7], squares[8]]
     ]
-
     //check every line to see if there is a winner
     //if a straight line on the board has three of the same character
     //then someone one the game
@@ -154,8 +193,6 @@ function checkWinner() {
     //check all horizontal spots
     for (let i = 0; i < 3; i++) {
         if (allEqual(board[i][0], board[i][1], board[i][2])) {
-            const message = document.getElementById('message');
-            message.innerText = "Winner!";
             return board[i][0].innerText;
         }
     }
@@ -163,35 +200,24 @@ function checkWinner() {
     //check vertical spots 
     for (let i = 0; i < 3; i++) {
         if (allEqual(board[0][i], board[1][i], board[2][i])) {
-            const message = document.getElementById('message');
-            message.innerText = "Winner!";
             return board[0][i].innerText;
         }
     }
 
     //diagonal spots
     if (allEqual(board[0][0], board[1][1], board[2][2])) {
-        const message = document.getElementById('message');
-        message.innerText = "Winner!";
         return board[1][1].innerText;
     }
 
     if (allEqual(board[0][2], board[1][1], board[2][0])) {
-        const message = document.getElementById('message');
-        message.innerText = "Winner!";
         return board[1][1].innerText;
     }
 
-
     //if there is no winner and board is full 
     if (winner == null && openSpots(board) == false) {
-        console.log("tie at bottom");
-        const message = document.getElementById('message');
-        message.innerText = "Tie";
         return 'tie';
     }
     else {
-        console.log('RETURNED NULL NO TIE OR WIN')
         return null;
     }
 }
@@ -226,8 +252,13 @@ s.addEventListener('click', function (e) {
 
         square.innerHTML = '<p>X</p>';
 
-        if (checkWinner() == null) {
+        win = checkWinner();
+        if (win == null) {
+            console.log("called best move");
             bestMove(getBoard());
+        }
+        else {
+            displayWinner(win);
         }
 
     }
@@ -238,7 +269,7 @@ s.addEventListener('click', function (e) {
 const newButton = document.getElementById('reset');
 newButton.addEventListener('click', function (e) {
     newGame();
-    selectX();
+    // selectX();
     if (counter % 2 == 1) {
         counter++;
     }
