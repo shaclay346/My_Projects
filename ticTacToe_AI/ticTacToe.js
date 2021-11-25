@@ -1,5 +1,4 @@
 
-//init();
 let scores = {
     //human starts as x
     X: -1,
@@ -9,31 +8,6 @@ let scores = {
 };
 
 
-
-// function selectO() {
-//     const oButton = document.querySelector('.mode');
-//     const xButton = document.querySelector('.mode.selected');
-
-//     xButton.classList.remove('selected');
-//     oButton.classList.add('selected');
-// }
-
-
-// function selectX() {
-//     const buttons = document.querySelectorAll('.mode');
-
-//     buttons[0].classList.remove('selected');
-//     buttons[1].classList.add('selected');
-// }
-
-// function getNum(square) {
-//     const squares = document.querySelectorAll('.square');
-//     for (let i = 0; i < squares.length; i++) {
-//         if (squares[i] == square) {
-//             return i;
-//         }
-//     }
-// }
 
 function allEqual(spot1, spot2, spot3) {
     if (spot1.innerText == spot2.innerText && spot2.innerText == spot3.innerText && spot1.innerText != '') {
@@ -66,16 +40,6 @@ function getBoard() {
     return board;
 }
 
-function printBoard(board) {
-    for (let i = 0; i < 3; i++) {
-        for (let j = 0; j < 3; j++) {
-            console.log(board[i][j].innerHTML);
-        }
-    }
-}
-
-
-
 function bestMove(board) {
     // AI to make its turn
     let highScore = -Infinity;
@@ -87,10 +51,22 @@ function bestMove(board) {
                 //play for the AI at every spot
                 board[i][j].innerText = 'O';
 
-                let score = minimax(board, false, 0);
+                //if the AI can win just make the winning play and don't even bother calling minimax 
+                // without this the AI would make unnessary moves (it would still win the game with those moves) but would
+                //make a move that results in more future wins, rather than just winning faster.
+                if (checkWinner() == 'O') {
+                    board[i][j].innerHTML = '<p>O</p>';
+                    displayWinner('O');
+                    return;
+                }
+
+                //call minimax to find the best possible move
+                let score = minimax(board, false);
 
                 board[i][j].innerHTML = '';
-                //if the score is higher than best score
+                //if the score returned is higher than high score, update high score
+                //whichever score is the highest, is the best possible move that results in 
+                //the most wins for the AI
                 if (score > highScore) {
                     //console.log("enter here");
                     highScore = score;
@@ -98,18 +74,19 @@ function bestMove(board) {
                 }
             }
         }
-    }
+    } winner = checkWinner();
     //have the computer play the best move
-    board[move.i][move.j].innerHTML = '<p>O</p>';
-    win = checkWinner();
-    if (win != null) {
-        displayWinner();
+    if (winner == null) {
+        board[move.i][move.j].innerHTML = '<p>O</p>';
+    }
+    else {
+        displayWinner(winner);
     }
 }
 
-//keep track of number of wins for given score
-//or don't search entire game, just a couple moves ahead 
-function minimax(board, isAiTurn, numberOfWins) {
+//minimax to fill out the full board for all potenetial AI moves
+//and returns if the AI wins that game
+function minimax(board, isAiTurn) {
     let result = checkWinner();
 
     //if there was winner or a tie 
@@ -136,11 +113,8 @@ function minimax(board, isAiTurn, numberOfWins) {
                 }
             }
         }
-        //error could be here
-        // console.log("best score is top: ", highScore);
         return highScore;
     } else {
-        //console.log("human turn");
         let highScore = Infinity;
         for (let i = 0; i < 3; i++) {
             for (let j = 0; j < 3; j++) {
@@ -156,7 +130,6 @@ function minimax(board, isAiTurn, numberOfWins) {
                 }
             }
         }
-        // console.log("best score is bottom: ", highScore);
         return highScore;
     }
 }
@@ -170,7 +143,7 @@ function displayWinner(winner) {
     //else have some winning animation happen 
     else {
         const message = document.getElementById('message');
-        message.innerText = "Winner!";
+        message.innerText = `${winner} Wins!`;
     }
 }
 
@@ -237,28 +210,33 @@ function newGame() {
 
 
 //function init() {
+const AiButton = document.getElementById('AI');
+
+AiButton.addEventListener('click', function (e) {
+    newGame();
+    board = getBoard();
+    board[0][0].innerHTML = '<p>O</p>';
+
+});
+
+
 
 const s = document.getElementById('container');
 
-
-let counter = 0;
-//bestMove(getBoard());
 //add a listener to all squares 
 s.addEventListener('click', function (e) {
 
     if (e.target.className == 'square') {
         const square = e.target
-        counter++;
 
-        square.innerHTML = '<p>X</p>';
-
-        win = checkWinner();
-        if (win == null) {
+        winner = checkWinner();
+        if (winner == null) {
+            square.innerHTML = '<p>X</p>';
             console.log("called best move");
             bestMove(getBoard());
         }
         else {
-            displayWinner(win);
+            displayWinner();
         }
 
     }
@@ -269,15 +247,7 @@ s.addEventListener('click', function (e) {
 const newButton = document.getElementById('reset');
 newButton.addEventListener('click', function (e) {
     newGame();
-    // selectX();
-    if (counter % 2 == 1) {
-        counter++;
-    }
 });
-
-//}
-
-
 
 
 

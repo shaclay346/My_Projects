@@ -12,11 +12,14 @@ body {
 
 p{
 	color: aliceblue;
-	font-size: 200%;
-	text-align: center;
-	/* vertical-align: middle;
-	display: inline; */
-	margin: 0;
+    font-size: 800%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.mode{
+	float: right !important;
 }
 
 #winner{
@@ -43,22 +46,15 @@ div{
 
 .square {
 	width: 30%;
-	background: #232323;
-	padding-bottom: 40%;
-	float: left;
-	margin: 1.66%;
-	border-radius: 15%;
-	text-align: justify;
-	font-size: 4.3vw;
+    background: #232323;
+    padding-bottom: 40%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
 	/* transition: background 0.6s;
 	-webkit-transition: background 0.6s;
 	-moz-transition: background 0.6s; */
 }
-
-/* #reset{
-	justify-center: center;
-} */
-
 
 
 #colorDisplay {
@@ -68,18 +64,23 @@ div{
 #message {
 	display: inline-block;
 	width: 20%;
+	text-align: center;
+	font-size: 40px;
+	color: black;
+	margin-right: 60px;
 }
 
 #stripe {
 	background: white;
-	height: 30px;
+	height: 50px;
 	text-align: center;
 	color: black;
 }
 
 .selected {
 	color: white;
-	background: steelblue;
+	background: black;
+	float: left;
 }
 
 button {
