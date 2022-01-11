@@ -1,4 +1,4 @@
-You can access our firebase with this link:  https://console.firebase.google.com/project/fantasty-stocks/overview
+You can access the firebase with this link:  https://console.firebase.google.com/project/fantasty-stocks/overview
 
 
 https://firebase.google.com/docs/android/setup
