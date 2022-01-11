@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+		<title>Weather </title>
+	</head>
+
+
+	<body style="background: #CCFFFF;">
+		<section id="intro">
+	       <div class="container-lg m-5">
+
+				<div class="row g-4 justify-content-center align-items-center">
+					<div class="col-8 text-center text-md-start">
+						<div class="input-group">
+							<input id= "enteredCity" type="search" class="form-control rounded" placeholder="Enter City Name" aria-label="Search"
+							aria-describedby="search-addon" />
+							<button id = "search" type="button" class="btn btn-outline-dark search" data-bs-toggle="modal" data-bs-target="#weather-modal">search</button>
+						  </div>
+					</div>
+			    </div>
+		   </div>
+	    </section>
+
+
+
+
+
+
+	    <section id="weather">
+	    	<div class="container-lg m-5">
+	    		<div class="row my-5 g-0 align-items-center justify-content-evenly">
+
+			    	<div class="card col-2" style="border-radius: 20px;">
+					  <div class="card-body">
+					    <h5 class="card-title">Lakeland</h5>
+					    <h6 class="card-subtitle mb-2 text-muted">Snowing - 35&deg;F</h6>
+					    <p class="card-text text-center display-1"><i class="bi bi-cloud-snow"></i></p>
+					    <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#weather-modal">Forecast</a>
+					  </div>
+					</div>
+
+					<div class="card col-2" style="border-radius: 20px;">
+					  <div class="card-body">
+					    <h5 class="card-title">Lakeland</h5>
+					    <h6 class="card-subtitle mb-2 text-muted">Snowing - 35&deg;F</h6>
+					    <p class="card-text text-center display-1"><i class="bi bi-cloud-snow"></i></p>
+					    <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#weather-modal">Forecast</a>
+					  </div>
+					</div>
+
+					<div class="card col-2" style="border-radius: 20px;">
+					  <div class="card-body">
+					    <h5 class="card-title">Lakeland</h5>
+					    <h6 class="card-subtitle mb-2 text-muted">Snowing - 35&deg;F</h6>
+					    <p class="card-text text-center display-1"><i class="bi bi-cloud-snow"></i></p>
+					    <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#weather-modal">Forecast</a>
+					  </div>
+					</div>
+
+					<div class="card col-2" style="border-radius: 20px;">
+					  <div class="card-body">
+					    <h5 class="card-title">Lakeland</h5>
+					    <h6 class="card-subtitle mb-2 text-muted">Snowing - 35&deg;F</h6>
+					    <p class="card-text text-center display-1"><i class="bi bi-cloud-snow"></i></p>
+					    <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#weather-modal">Forecast</a>
+					  </div>
+					</div>
+
+				</div>
+			</div>
+	    </section>
+	    <section id="footer">
+			<nav class="navbar navbar-light bg-light fixed-bottom">
+			  <div class="container-fluid d-flex justify-content-center">
+			    <span class="navbar-text">
+			      &copy; 2022 Trademark
+			    </span>
+			  </div>
+			</nav>	    	
+	    </section>
+
+	    <!-- Modal -->
+	    <div class="modal fade" id="weather-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <h5 class="modal-title" id="modal-title">Forecast for Lakeland</h5>
+	          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	        </div>
+	        <div class="modal-body">
+	          <ul class="list-group">
+				  <li class="list-group-item lead">
+				  <i class="bi bi-cloud-drizzle me-3"></i>
+				   95&degF / 42&degF - Rainy, 4 mph wind
+				  </li>
+				  <li class="list-group-item lead">
+				  <i class="bi bi-sun me-3"></i>
+				  95&degF / 42&degF - Sunny, 4 mph wind
+				  </li>
+				  <li class="list-group-item lead">
+				  <i class="bi bi-cloud me-3"></i>
+				  95&degF / 42&degF - Cloudy, 4 mph wind
+				  </li>
+				  <li class="list-group-item lead">
+				  <i class="bi bi-tornado me-3"></i>
+				  95&degF / 42&degF - Tornadoy, 4 mph wind
+				  </li>
+				  <li class="list-group-item lead">
+				  <i class="bi bi-cloud-lightning me-3"></i>
+				  95&degF / 42&degF - Thunderstorm, 4 mph wind
+				  </li>
+				  <li class="list-group-item lead">
+				  <i class="bi bi-cloud-sun me-3"></i>
+				  95&degF / 42&degF - Partly Cloudy, 4 mph wind
+				  </li>
+				  <li class="list-group-item lead">
+				  <i class="bi bi-tsunami me-3"></i>
+				  95&degF / 42&degF - Tsunami, 4 mph wind
+				  </li>
+				</ul>
+	        </div>
+	      </div>
+	    </div>
+
+
+		<div class="modal fade" id="error-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+			</div>
+		</div>
+
+
+
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+	    <script>
+	      const tooltips = document.querySelectorAll('.tt')
+	      tooltips.forEach(t => {
+	        new bootstrap.Tooltip(t)
+	      })
+	    </script>
+	    <script type="text/javascript" src="weather.js"></script>
+
+	</body>
+</html>
