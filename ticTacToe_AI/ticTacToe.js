@@ -8,7 +8,8 @@ let scores = {
 };
 
 
-
+//helper function to determine if three squares
+//all hold the same value
 function allEqual(spot1, spot2, spot3) {
     if (spot1.innerText == spot2.innerText && spot2.innerText == spot3.innerText && spot1.innerText != '') {
         return true;
@@ -16,6 +17,7 @@ function allEqual(spot1, spot2, spot3) {
     return false;
 }
 
+//returns true if there are any open spots remaining
 function openSpots(board) {
     for (let i = 0; i < 3; i++) {
         for (let j = 0; j < 3; j++) {
@@ -25,6 +27,18 @@ function openSpots(board) {
         }
     }
     return false;
+}
+
+//returns true if the board is empty, else returns false
+function isBoardEmpty(board) {
+    for (let i = 0; i < 3; i++) {
+        for (let j = 0; j < 3; j++) {
+            if (board[i][j].innerText != '') {
+                return false;
+            }
+        }
+    }
+    return true;
 }
 
 function getBoard() {
@@ -40,6 +54,7 @@ function getBoard() {
     return board;
 }
 
+//determines and play the best possible move for the AI
 function bestMove(board) {
     // AI to make its turn
     let highScore = -Infinity;
@@ -74,15 +89,43 @@ function bestMove(board) {
                 }
             }
         }
-    } winner = checkWinner();
+    } 
+    winner = checkWinner();
     //have the computer play the best move
     if (winner == null) {
         board[move.i][move.j].innerHTML = '<p>O</p>';
+        //if the previous move was the winning play check winner again
+        winner = checkWinner();
+        if(winner != null){
+            displayWinner(winner);
+        }
     }
     else {
         displayWinner(winner);
     }
 }
+
+
+//to save run time, I hard coded the first move of the AI
+//it is still playing the most efficent move, just not doing any
+//calculation since the first move was taking upwards of 5 seconds
+//to play
+function determineFirstMove(board){
+    if(board[0][0].innerHTML != '' || board[0][2].innerHTML != '' || 
+    board[2][0].innerHTML != '' || board[2][2].innerHTML != ''){
+        board[1][1].innerHTML = '<p>O</p>';
+    }
+    else if(board[1][2].innerHTML != ''){
+        board[0][2].innerHTML = '<p>O</p>';
+    }
+    else if(board[2][1].innerHTML != ''){
+        board[0][1].innerHTML = '<p>O</p>';
+    }
+    else{ 
+       board[0][0].innerHTML = '<p>O</p>';
+    }
+}
+
 
 //minimax to fill out the full board for all potenetial AI moves
 //and returns if the AI wins that game
@@ -195,7 +238,7 @@ function checkWinner() {
     }
 }
 
-
+//whipes the board and starts a new game with the User going first
 function newGame() {
     const squares = document.querySelectorAll('.square');
 
@@ -215,6 +258,9 @@ const AiButton = document.getElementById('AI');
 AiButton.addEventListener('click', function (e) {
     newGame();
     board = getBoard();
+    //if the AI goes first they always will play the best move, which is the
+    //top left corner, I hard coded this to make runtime way faster
+    //without this the program would computate over 300K outcomes just to play in the same spot
     board[0][0].innerHTML = '<p>O</p>';
 
 });
@@ -231,9 +277,18 @@ s.addEventListener('click', function (e) {
 
         winner = checkWinner();
         if (winner == null) {
-            square.innerHTML = '<p>X</p>';
-            console.log("called best move");
-            bestMove(getBoard());
+            if (isBoardEmpty(getBoard())) {
+                square.innerHTML = '<p>X</p>';
+                console.log("here at bottom");
+                determineFirstMove(getBoard());
+
+            }
+            else{
+                square.innerHTML = '<p>X</p>';
+                console.log("called best move");
+                bestMove(getBoard());
+            }
+
         }
         else {
             displayWinner();
