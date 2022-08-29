@@ -160,7 +160,7 @@ for (let i = 0; i < a.length; i++) {
 //once the square is clicked on get the name of the city 
 //then when they click on the forecast button do that http request and load
 //the information 
-const fuck = document.querySelectorAll('.card').forEach(elem => {
+const test = document.querySelectorAll('.card').forEach(elem => {
     elem.addEventListener('click', function () {
         const cityName = elem.querySelector('h5').innerText;
 
