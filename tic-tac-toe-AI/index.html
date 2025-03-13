@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Tic Tac Toe</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
-	<h1>
-		<span id="colorDisplay">Tic Tac Toe</span> 
-	</h1>
+	<div class="header">
+		<h1 id="colorDisplay">
+			<span>Tic Tac Toe</span>
+		</h1>
+	</div>
 
 	<section id="stripe">
-		<button class = "selected" id="reset">New Game</button>
+		<button class="selected" id="reset">New Game</button>
 
-		<button class = "selected mode" id="AI">AI first</button>
+		<button class="selected" id="AI">AI first</button>
 		<span id="message"></span>
 	</section>
 
-		<div id="container">
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<!-- <h1 id="winner">Winner <span></span> wins!</h1> -->
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-		</div>
-<!-- 
-	<script src="AI.js"></script> -->
+	<div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<!-- <h1 id="winner">Winner <span></span> wins!</h1> -->
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+
 	<script src="ticTacToe.js"></script>
 </body>
+
 </html>

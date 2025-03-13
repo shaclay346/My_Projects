@@ -17,10 +17,7 @@ p{
     margin-top: 2%;
     margin-bottom: 10%;
 }
-/* 
-.mode{
-	float: right !important;
-} */
+
 
 #winner{
 	display: none;
@@ -58,7 +55,15 @@ div{
 
 
 #colorDisplay {
-	font-size: 200%;
+	font-size: 400%;
+	background: transparent;
+	align-self: center;
+}
+
+.header {
+	height: 125px;
+	width: 100%;
+	display: grid;
 }
 
 #message {
@@ -73,15 +78,21 @@ div{
 }
 
 #stripe {
-	background: white;
+	justify-content: center;
+	background: rgb(179, 171, 171);
 	height: 50px;
 	text-align: center;
 	color: black;
 }
 
 .selected {
-	float: left;
+	background-color: #232323;
+	color: white;
 	border: 2px solid black;
+}
+
+#reset{
+	margin-right: 50px;
 }
 
 button {
