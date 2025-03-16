@@ -8,6 +8,7 @@ body {
 #container {
 	margin: 50px auto;
 	max-width: 600px;
+	margin-top: 75px;
 }
 
 p{
@@ -48,6 +49,7 @@ div{
     float: left;
     margin: 1.66%;
     border-radius: 15%;
+	cursor: pointer;
 	/* transition: background 0.6s;
 	-webkit-transition: background 0.6s;
 	-moz-transition: background 0.6s; */
@@ -77,6 +79,17 @@ div{
 
 }
 
+#turn{
+	display: block;
+	width: 20%;
+	/* text-align: center; */
+	font-weight: bold;
+	font-size: 50px;
+	color: black;
+	margin: 0;
+	justify-self: center;
+}
+
 #stripe {
 	justify-content: center;
 	background: rgb(179, 171, 171);
@@ -85,10 +98,12 @@ div{
 	color: black;
 }
 
+
 .selected {
 	background-color: #232323;
 	color: white;
 	border: 2px solid black;
+	cursor: pointer;
 }
 
 #reset{

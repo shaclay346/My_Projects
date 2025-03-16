@@ -6,10 +6,10 @@ let scores = {
     O: 1,
     tie: 0
 };
+let isAITurn = false
 
 
-//helper function to determine if three squares
-//all hold the same value
+//helper function to determine if three squares all hold the same value
 function allEqual(spot1, spot2, spot3) {
     if (spot1.innerText == spot2.innerText && spot2.innerText == spot3.innerText && spot1.innerText != '') {
         return true;
@@ -44,7 +44,7 @@ function isBoardEmpty(board) {
 function getBoard() {
     const squares = document.querySelectorAll('.square');
 
-    //make the squares into a 2d array
+    //2d array to represent the board
     let board = [
         [squares[0], squares[1], squares[2]],
         [squares[3], squares[4], squares[5]],
@@ -67,7 +67,7 @@ function bestMove(board) {
                 board[i][j].innerText = 'O';
 
                 //if the AI can win just make the winning play and don't even bother calling minimax 
-                // without this the AI would make unnessary moves (it would still win the game with those moves) but would
+                // without this the AI would make unnecessary moves (it would still win the game with those moves) but would
                 //make a move that results in more future wins, rather than just winning faster.
                 if (checkWinner() == 'O') {
                     board[i][j].innerHTML = '<p>O</p>';
@@ -77,6 +77,7 @@ function bestMove(board) {
 
                 //call minimax to find the best possible move
                 let score = minimax(board, false);
+                isAITurn = false
 
                 board[i][j].innerHTML = '';
                 //if the score returned is higher than high score, update high score
@@ -89,14 +90,14 @@ function bestMove(board) {
                 }
             }
         }
-    } 
+    }
     winner = checkWinner();
     //have the computer play the best move
     if (winner == null) {
         board[move.i][move.j].innerHTML = '<p>O</p>';
         //if the previous move was the winning play check winner again
         winner = checkWinner();
-        if(winner != null){
+        if (winner != null) {
             displayWinner(winner);
         }
     }
@@ -107,27 +108,27 @@ function bestMove(board) {
 
 
 //to save run time, I hard coded the first move of the AI
-//it is still playing the most efficent move, just not doing any
+//it is still playing the most efficient move, just not doing any
 //calculation since the first move was taking upwards of 5 seconds
 //to play
-function determineFirstMove(board){
-    if(board[0][0].innerHTML != '' || board[0][2].innerHTML != '' || 
-    board[2][0].innerHTML != '' || board[2][2].innerHTML != ''){
+function determineAIFirstMove(board) {
+    if (board[0][0].innerHTML != '' || board[0][2].innerHTML != '' ||
+        board[2][0].innerHTML != '' || board[2][2].innerHTML != '') {
         board[1][1].innerHTML = '<p>O</p>';
     }
-    else if(board[1][2].innerHTML != ''){
+    else if (board[1][2].innerHTML != '') {
         board[0][2].innerHTML = '<p>O</p>';
     }
-    else if(board[2][1].innerHTML != ''){
+    else if (board[2][1].innerHTML != '') {
         board[0][1].innerHTML = '<p>O</p>';
     }
-    else{ 
-       board[0][0].innerHTML = '<p>O</p>';
+    else {
+        board[0][0].innerHTML = '<p>O</p>';
     }
 }
 
 
-//minimax to fill out the full board for all potenetial AI moves
+//minimax to fill out the full board for all potential AI moves
 //and returns if the AI wins that game
 function minimax(board, isAiTurn) {
     let result = checkWinner();
@@ -139,7 +140,6 @@ function minimax(board, isAiTurn) {
     }
 
     if (isAiTurn) {
-        // console.log("AI turn");
         let highScore = -Infinity;
 
         for (let i = 0; i < 3; i++) {
@@ -178,6 +178,7 @@ function minimax(board, isAiTurn) {
 }
 
 function displayWinner(winner) {
+    turnText.innerText = ""
     //if board is full and no one wins 
     if (winner == 'tie') {
         const message = document.getElementById('message');
@@ -204,7 +205,7 @@ function checkWinner() {
     ]
     //check every line to see if there is a winner
     //if a straight line on the board has three of the same character
-    //then someone one the game
+    //then someone won the game
 
     //check all horizontal spots
     for (let i = 0; i < 3; i++) {
@@ -238,7 +239,7 @@ function checkWinner() {
     }
 }
 
-//whipes the board and starts a new game with the User going first
+//wipes the board and starts a new game with the User going first
 function newGame() {
     const squares = document.querySelectorAll('.square');
 
@@ -252,46 +253,42 @@ function newGame() {
 }
 
 
-//function init() {
 const AiButton = document.getElementById('AI');
-
-AiButton.addEventListener('click', function (e) {
+AiButton.addEventListener('click', () => {
     newGame();
-    board = getBoard();
-    //if the AI goes first they always will play the best move, which is the
-    //top left corner, I hard coded this to make runtime way faster
-    //without this the program would computate over 300K outcomes just to play in the same spot
-    board[0][0].innerHTML = '<p>O</p>';
-
+    determineAIFirstMove(getBoard())
 });
+
+const turnText = document.getElementById("turn")
+if (!isAITurn) {
+    turnText.innerText = "Your turn!"
+}
+if (isAITurn) {
+    turnText.innerText = ""
+}
 
 
 
 const s = document.getElementById('container');
-
 //add a listener to all squares 
 s.addEventListener('click', function (e) {
-
-    if (e.target.className == 'square') {
+    if (e.target.className === 'square') {
+        isAITurn = true
         const square = e.target
 
         winner = checkWinner();
-        if (winner == null) {
-            if (isBoardEmpty(getBoard())) {
-                square.innerHTML = '<p>X</p>';
-                console.log("here at bottom");
-                determineFirstMove(getBoard());
-
-            }
-            else{
-                square.innerHTML = '<p>X</p>';
-                console.log("called best move");
-                bestMove(getBoard());
-            }
-
+        if (!!winner) {
+            displayWinner();
         }
         else {
-            displayWinner();
+            if (isBoardEmpty(getBoard())) {
+                square.innerHTML = '<p>X</p>';
+                determineAIFirstMove(getBoard());
+            }
+            else {
+                square.innerHTML = '<p>X</p>';
+                bestMove(getBoard());
+            }
         }
 
     }
