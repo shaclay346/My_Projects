@@ -7,7 +7,8 @@ let scores = {
     tie: 0
 };
 let isAITurn = false
-
+const turnText = document.getElementById("turn")
+const winnerText = document.getElementById('message');
 
 //helper function to determine if three squares all hold the same value
 function allEqual(spot1, spot2, spot3) {
@@ -107,7 +108,7 @@ function bestMove(board) {
 }
 
 
-//to save run time, I hard coded the first move of the AI
+//to save on run time, I hard coded the first move of the AI
 //it is still playing the most efficient move, just not doing any
 //calculation since the first move was taking upwards of 5 seconds
 //to play
@@ -248,8 +249,9 @@ function newGame() {
         item.innerHTML = '';
     });
 
-    const text = document.getElementById('message');
-    text.innerText = '';
+    winnerText.innerText = '';
+    isAITurn = false
+    turnText.innerText = 'Your turn!'
 }
 
 
@@ -259,7 +261,7 @@ AiButton.addEventListener('click', () => {
     determineAIFirstMove(getBoard())
 });
 
-const turnText = document.getElementById("turn")
+
 if (!isAITurn) {
     turnText.innerText = "Your turn!"
 }
